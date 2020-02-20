@@ -1,11 +1,15 @@
-*
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+*, *:before, *:after, *::before, *::after
 {
-    padding: 0;
-    margin: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html, body
 {
+	width: 100%;
 	min-width: 320px;
 }
 
@@ -16,14 +20,21 @@ html
 
 body
 {
+	background-size: cover;
+	background-image: url('../img/background.jpeg');
 	min-height: 100%;
+}
+
+body, input, a
+{
+	font-family: "Roboto", sans-serif;
 }
 
 html, body, .container
 {
 	width: 100%;
 }
- 
+
 a
 {
 	display: block;
@@ -44,7 +55,14 @@ img
 
 .container
 {
-    margin: 0 auto;
+	all: inherit;
 	max-width: 1440px;
+	margin: 0 auto;
+	padding: 50px;
 }
-ы
+
+/* VARIABLES */
+:root 
+{
+	--main-color: #FFFFFFFF;
+}

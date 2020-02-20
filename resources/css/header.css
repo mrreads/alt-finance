@@ -1,0 +1,63 @@
+﻿.header
+{
+    background-color: var(--main-color);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.header .header_info
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.header .header_info > .h-i_heading
+{
+    font-size: 32px;
+}
+.header .header_info > .h-i_logo
+{
+    margin-right: 25px;
+    max-height: 75px;
+}
+
+.header_act > .f-a__search-f
+{
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+}
+
+.header_act > .f-a__search-f > input[type=search]
+{
+    border-radius: 500rem;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    padding: 10px 40px 10px 15px;
+}
+
+.header_act > .f-a__search-f > input[type=submit]
+{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    border: 0;
+    background-color: transparent;
+    height: 100%;
+    width: 40px;
+    background-repeat: no-repeat;
+	background-size: 60%;
+    background-image: url('../img/icons/search.svg');
+    background-position: center;
+    opacity: 0.3;
+    transition: 0.3s opacity;
+}
+
+.header_act > .f-a__search-f > input[type=submit]:hover
+{
+    opacity: 0.7;
+}
