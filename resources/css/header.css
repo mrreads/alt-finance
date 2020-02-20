@@ -103,3 +103,17 @@
 	border: 1px solid transparent;
 	background-color: rgba(0,0,0,0.9);
 }
+
+@media screen and (max-width: 800px)
+{
+	.header .container
+	{
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.header .header_info
+	{
+		margin-bottom: 25px;
+	}
+}

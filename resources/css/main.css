@@ -76,3 +76,19 @@ hr
 	border: 0;
 	border-bottom: 1px solid black;
 }
+
+@media screen and (max-width: 800px)
+{
+	.container
+	{
+		padding: 25px;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+	.container
+	{
+		padding: 15px;
+	}
+}

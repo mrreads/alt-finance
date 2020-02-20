@@ -27,7 +27,7 @@
 .menu .container > ul li a, .menu .container > ul li p
 {
 	font-size: 14px;
-
+	font-weight: bold;
 	width: 100%;
 	padding: 20px 15px;
 
@@ -42,7 +42,8 @@
 
 .menu .container > ul li .dropdown-menu a, .menu .container > ul li .dropdown-menu p
 {
-	padding: 15px;
+	font-weight: normal;
+	padding: 15px 25px;
 }
 
 .menu .container > ul li a:hover, .menu .container > ul li p:hover
@@ -62,4 +63,25 @@
 .dropdown-hover:hover .dropdown-menu
 {
 	display: block;
+}
+
+@media screen and (max-width: 450px)
+{
+	.menu .container > ul
+	{
+		flex-flow: column nowrap;
+	}
+	.menu .container > ul li
+	{
+		width: 100%;
+	}
+	.menu .container
+	{
+		padding: 15px 25px 0 25px;
+	}
+	.dropdown-menu
+	{
+		width: 100%;
+    	left: 0;
+	}
 }
