@@ -5,23 +5,61 @@
 
 .menu .container
 {
-	padding: 15px 50px;
+	padding: 15px 50px 0 50px;
 }
 
 .menu .container > ul
 {
-    margin-top: 25px;
-    display: flex;
+	display: flex;
 	align-items: center;
 	flex-flow: row wrap;
 	justify-content: center;
 
+	width: 100%;
+	/* margin-top: 25px; */
 }
 
-.menu .container > ul li a
+.menu .container > ul li
 {
-    text-transform: uppercase;
-    color: #000000;
-    padding: 5px 15px;
-    font-size: 14px;
+	flex-grow: 1;
+}
+
+.menu .container > ul li a, .menu .container > ul li p
+{
+	font-size: 14px;
+
+	width: 100%;
+	padding: 20px 15px;
+
+	cursor: pointer;
+	transition: 0.5s all;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.menu .container > ul li .dropdown-menu a, .menu .container > ul li .dropdown-menu p
+{
+	padding: 15px;
+}
+
+.menu .container > ul li a:hover, .menu .container > ul li p:hover
+{
+	background-color: rgba(204,204,204,1);
+}
+
+.dropdown-menu
+{
+	position: absolute;
+	z-index: 5;
+
+	display: none;
+	overflow: hidden;
+}
+
+.dropdown-hover:hover .dropdown-menu
+{
+	display: block;
 }

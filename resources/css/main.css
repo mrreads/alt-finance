@@ -67,3 +67,12 @@ img
 	margin: 0 auto;
 	padding: 50px;
 }
+
+hr
+{
+	margin: 0 auto;
+
+	opacity: 0.2;
+	border: 0;
+	border-bottom: 1px solid black;
+}
