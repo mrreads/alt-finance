@@ -2,6 +2,7 @@
 
 @import url("./header.css");
 @import url("./navigation.css");
+@import url("./footer.css");
 
 *, *:before, *:after, *::before, *::after
 {
@@ -21,8 +22,12 @@ html
 	height: 100%;
 } 
 
+
 body
 {
+	display: flex;
+	flex-flow: column nowrap;
+
 	min-height: 100%;
 
 	background-image: url("../img/background.jpeg");
