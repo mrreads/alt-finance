@@ -68,14 +68,14 @@
 	z-index: 5;
 	left: 50%;
 	top: 55px;
-	display: none;
+	display: none !important;
 	overflow: hidden;
 	transform: translateX(-50%);
 }
 
 .dropdown-hover:hover .dropdown-menu
 {
-	display: block;
+	display: block !important;
 }
 
 @media screen and (max-width: 450px)
