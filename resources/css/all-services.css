@@ -40,26 +40,62 @@
 
 .c-main .service
 {
+	position: relative;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 	min-width: 200px;
-	min-height: 200px;
+	min-height: 300px;
 	padding: 25px;
 
 	text-align: center;
 	text-transform: uppercase;
 
 	color: #FFFFFF;
+	background-position: center;
+	background-size: cover;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.c-main .service::after
+{
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	content: "";
+	transition: 0.6s all;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.c-main .service:hover::after
+{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.c-main .service:hover > p
+{
+	opacity: 0;
 }
 
 .c-main .service > p
 {
 	font-size: 24px;
 	font-weight: bold;
+
+	z-index: 5;
+
+	transition: 1s all;
+
+	opacity: 1;
+	text-shadow: 2px 2px 0px #000000;
 }
+
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev
 {
 	right: 25px;

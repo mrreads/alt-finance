@@ -50,24 +50,24 @@
             <div class="c-left">
                 <div class="c-main">
                     <div class="services">
-                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>КОНСАЛТИНГ</p>
-                        </div>
-                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </a>
+                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </div>
-                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </a>
+                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </div>
-                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </a>
+                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>IT-ТЕХНОЛОГИИ, АВТОМАТИЗАЦИЯ ПРОИЗВОДСТВА, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </div>
-                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </a>
+                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </div>
-                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </a>
+                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
