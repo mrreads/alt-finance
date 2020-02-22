@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./resources/css/footer.css">
 
     <!-- Slick -->
-    <link rel="stylesheet" type="text/css" href="resources/slick1.8.1/slick/slick.css"/>
+    
 
 </head>
 <body>

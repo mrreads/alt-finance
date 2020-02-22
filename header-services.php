@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./resources/css/footer.css">
     <link rel="stylesheet" href="./resources/css/all-services.css">
 
+    <link rel="stylesheet" href="/resources/css/swiper.min.css">
+
 </head>
 <body>
     <!-- HEADER -->
