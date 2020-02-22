@@ -86,3 +86,19 @@ div.c-main-contacts h2
         margin-top: 55px;
     }
 }
+
+@media screen and (max-width: 800px)
+{
+	div.c-main-contacts
+	{
+		padding: 55px 25px;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+	div.c-main-contacts
+	{
+		padding: 55px 15px;
+	}
+}
