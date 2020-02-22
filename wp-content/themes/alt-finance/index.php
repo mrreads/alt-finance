@@ -44,12 +44,55 @@
                     </div>
                     
                     <div class="c-news">
-                        Три последние новости
+                        <?php 
+                        $posts = get_posts(array(
+                            'numberposts' => 3,
+                            'post_type' => 'post',
+                            'suppress_filters' => true
+                        ));
+                        
+                        foreach($posts as $post)
+                        { setup_postdata($post);
+                        ?>
+                            <div class="news">
+                                <div class="n-title">
+                                    <p class="n-heading"><?php the_title() ?></p>
+                                    <p class="n-date"><?php the_date('F jS, Y') ?></p>
+                                </div>
+                                <hr>
+                                <div class="n-text">
+                                    <p><?php the_excerpt(); ?></p>
+                                </div> 
+                            </div>
+                        <?php
+                        }
+                        wp_reset_postdata();
+                        ?>
                     </div>
                 </div>
-
-                <div class="c-right">
-                    <p>Список основных продуктов компании</p>
+                    <div class="c-right">
+                        <div class="c-product" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/test.jpg');">
+                            <p>всплываюищй дом</p>
+                        </div>
+                        <div class="c-product" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/test.jpg');">
+                            <p>всплываюищй дом</p>
+                        </div>
+                        <div class="c-product" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/test.jpg');">
+                            <p>всплываюищй дом</p>
+                        </div>
+                        <div class="c-product" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/test.jpg');">
+                            <p>всплываюищй дом</p>
+                        </div>
+                        <div class="c-product" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/test.jpg');">
+                            <p>всплываюищй дом</p>
+                        </div>
+                        <div class="c-product" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/test.jpg');">
+                            <p>всплываюищй дом</p>
+                        </div>
+                        <div class="c-product" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/test.jpg');">
+                            <p>всплываюищй дом</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </secion>
