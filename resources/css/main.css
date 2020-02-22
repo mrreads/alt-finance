@@ -94,7 +94,7 @@ hr
 	}
 }
 
-.c-main, .c-right, .c-news > .news, .swiper-container, .main-ul
+.c-main, .c-right, .c-news > .news, .swiper-container, .main-ul, .page-service-title, .page-service-switcher
 {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	border-radius: 0.5em;
