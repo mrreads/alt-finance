@@ -61,7 +61,7 @@ div.slider
 	justify-content: center;
 
 	min-width: 200px;
-	min-height: 300px;
+	min-height: 250px;
 	padding: 25px;
 
 	text-align: center;
@@ -167,7 +167,7 @@ div.slider
 	background-color: rgba(0,0,0,0.9);
 }
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1200px)
 {
 	.c-main .services
 	{   
@@ -175,7 +175,7 @@ div.slider
     }
     .c-main .service > p
     {
-        font-size: 3vw;
+        font-size: 2vw;
     }   
     .slider-item
     {
@@ -192,7 +192,7 @@ div.slider
     }
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 900px)
 {
 	.c-main .services
 	{
@@ -200,7 +200,7 @@ div.slider
     }
     .c-main .service > p
     {
-        font-size: 5vw;
+        font-size: 3vw;
     }  
     .slider-item
     {
@@ -215,4 +215,12 @@ div.slider
     {
         left: 15px;
     }
+}
+
+@media screen and (max-width: 600px)
+{
+    .c-main .service > p
+    {
+        font-size: 5vw;
+	}
 }
