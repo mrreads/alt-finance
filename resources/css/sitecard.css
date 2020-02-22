@@ -1,0 +1,43 @@
+.main-ul
+{
+    list-style-type: disc; 
+    margin-left: 30px; 
+    width: 100%; 
+    background-color:#fff; 
+    padding: 50px;
+    
+}
+
+.main-ul a
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px !important;
+}
+
+.all-services
+{
+    min-width: 300px;
+    display: block; 
+    text-decoration: none;
+}
+
+.daughter-ul
+{
+    list-style-type: disc; 
+    margin-left: 30px;
+}
+
+.all-services:hover, .hover:hover 
+{
+    background-color: rgb(67, 108, 245);
+}
+
+.all-services:hover 
+{
+    color: white;
+}
+
+.hover:hover>a
+{
+    color: white;
+}

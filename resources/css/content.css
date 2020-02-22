@@ -5,13 +5,17 @@
 	margin: 25px 0;
 }
 
+section.contacts {
+    background-image: none;
+    background-color: #fff;
+    margin: unset;
+}
+
 .content .container
 {
 	display: flex;
 	flex-flow: row nowrap;
 }
-
-
 
 .content .c-left
 {

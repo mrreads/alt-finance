@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./resources/css/main.css">
     
     <link rel="stylesheet" href="./resources/css/header.css">
-    <link rel="stylesheet" href="./resources/css/navigation.css">s
+    <link rel="stylesheet" href="./resources/css/navigation.css">
     <link rel="stylesheet" href="./resources/css/content.css">
     <link rel="stylesheet" href="./resources/css/footer.css">
 
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./resources/css/all-services.css">
     <!-- Contacts -->
     <link rel="stylesheet" href="./resources/css/contacts.css">
+    <!-- Sitecard -->
+    <link rel="stylesheet" href="./resources/css/sitecard.css">
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="/resources/css/swiper.min.css">
@@ -49,7 +51,7 @@
             <ul>
                 <li><a href="index.php">Главная</a></li>
                 <li><a href="#">О компании</a></li>
-                <li><a href="#">Контакты</a></li>
+                <!-- <li><a href="#">Контакты</a></li> -->
                 <li><a href="#">Список основных продуктов компании</a></li>
                 <li class="dropdown-hover">
                     <a href="all-services.php" style="min-width: 300px; display: block; text-decoration: none;">Виды услуг</a>
