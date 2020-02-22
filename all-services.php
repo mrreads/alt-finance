@@ -7,29 +7,33 @@
             <div class="swiper-container slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="slider-item">                        
+                        <div class="slider-item">                
                             <h1>Плавающий дом</h1>
+                            <img src="https://avatars.mds.yandex.net/get-pdb/2126974/bec88ae6-f645-42b3-8478-e5018ad2bf12/s1200" style="width: 400px;">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
                             <a href="#" class="to-project-page">На страницу проекта</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                    <div class="slider-item">                        
+                        <div class="slider-item">                
                             <h1>Плавающий дом</h1>
+                            <img src="https://avatars.mds.yandex.net/get-pdb/2126974/bec88ae6-f645-42b3-8478-e5018ad2bf12/s1200" style="width: 400px;">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
                             <a href="#" class="to-project-page">На страницу проекта</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                    <div class="slider-item">                        
+                        <div class="slider-item">                
                             <h1>Плавающий дом</h1>
+                            <img src="https://avatars.mds.yandex.net/get-pdb/2126974/bec88ae6-f645-42b3-8478-e5018ad2bf12/s1200" style="width: 400px;">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
                             <a href="#" class="to-project-page">На страницу проекта</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                    <div class="slider-item">                        
+                        <div class="slider-item">                
                             <h1>Плавающий дом</h1>
+                            <img src="https://avatars.mds.yandex.net/get-pdb/2126974/bec88ae6-f645-42b3-8478-e5018ad2bf12/s1200" style="width: 400px;">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
                             <a href="#" class="to-project-page">На страницу проекта</a>
                         </div>

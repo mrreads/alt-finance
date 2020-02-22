@@ -11,10 +11,7 @@
     <link rel="stylesheet" href="./resources/css/navigation.css">s
     <link rel="stylesheet" href="./resources/css/content.css">
     <link rel="stylesheet" href="./resources/css/footer.css">
-
-    <!-- Slick -->
     
-
 </head>
 <body>
     <!-- HEADER -->
