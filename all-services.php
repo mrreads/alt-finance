@@ -51,22 +51,22 @@
                 <div class="c-main">
                     <div class="services">
                         <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>строительство</p>
+                            <p>КОНСАЛТИНГ</p>
                         </div>
                         <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>строительство</p>
+                            <p>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </div>
                         <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>строительство</p>
+                            <p>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </div>
                         <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>строительство</p>
+                            <p>IT-ТЕХНОЛОГИИ, АВТОМАТИЗАЦИЯ ПРОИЗВОДСТВА, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </div>
                         <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>строительство</p>
+                            <p>НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </div>
                         <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>производтво трнатстпроных средствов</p>
+                            <p>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</p>
                         </div>
                     </div>
                 </div>

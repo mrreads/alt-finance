@@ -53,25 +53,25 @@
 
             <div class="c-right">
                 <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплываюищй дом</p>
+                    <p>всплывающий дом</p>
                 </div>
                 <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплываюищй дом</p>
+                    <p>всплывающий дом</p>
                 </div>
                 <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплываюищй дом</p>
+                    <p>всплывающий дом</p>
                 </div>
                 <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплываюищй дом</p>
+                    <p>всплывающий дом</p>
                 </div>
                 <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплываюищй дом</p>
+                    <p>всплывающий дом</p>
                 </div>
                 <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплываюищй дом</p>
+                    <p>всплывающий дом</p>
                 </div>
                 <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплываюищй дом</p>
+                    <p>всплывающий дом</p>
                 </div>
             </div>
         </div>
