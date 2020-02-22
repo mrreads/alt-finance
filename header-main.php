@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./resources/css/main.css">
     
     <link rel="stylesheet" href="./resources/css/header.css">
-    <link rel="stylesheet" href="./resources/css/navigation.css">
+    <link rel="stylesheet" href="./resources/css/navigation.css">s
     <link rel="stylesheet" href="./resources/css/content.css">
     <link rel="stylesheet" href="./resources/css/footer.css">
 

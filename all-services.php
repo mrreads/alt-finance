@@ -1,47 +1,50 @@
 <?php include_once ('header-services.php');?>
 
-    <secion class="content">
+<link rel="stylesheet" href="./resources/css/slider.css">
+
+    <section class="slider">
+        <div class="container">
+            <div class="swiper-container slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-item">                        
+                            <h1>Плавающий дом</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
+                            <a href="#" class="to-project-page">На страницу проекта</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="slider-item">                        
+                            <h1>Плавающий дом</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
+                            <a href="#" class="to-project-page">На страницу проекта</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="slider-item">                        
+                            <h1>Плавающий дом</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
+                            <a href="#" class="to-project-page">На страницу проекта</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="slider-item">                        
+                            <h1>Плавающий дом</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
+                            <a href="#" class="to-project-page">На страницу проекта</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
         <div class="container">
             <div class="c-left">
                 <div class="c-main">
-                    <!-- Slider main container -->
-                    <div class="swiper-container slider">
-
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <h1>Плавающий дом</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
-                                <a href="#" class="to-project-page">На страницу проекта</a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <h1>Плавающий дом</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
-                                <a href="#" class="to-project-page">На страницу проекта</a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <h1>Плавающий дом</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
-                                <a href="#" class="to-project-page">На страницу проекта</a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <h1>Плавающий дом</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam assumenda expedita est excepturi ullam perferendis corporis sed nostrum nam sint provident, quae dolores ducimus, repudiandae ex? Optio, consectetur.</p>
-                                <a href="#" class="to-project-page">На страницу проекта</a>
-                            </div>
-
-                        </div>
-
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-
-                    </div>
                 </div>
                     
                 <div class="c-news">
@@ -77,7 +80,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
     </secion>
     <!-- END CONTENT-->
 
