@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="./resources/css/contacts.css">
     <!-- Sitecard -->
     <link rel="stylesheet" href="./resources/css/sitecard.css">
-
+    <!-- Static service pages -->
+    <link rel="stylesheet" href="/resources/css/static-service-page.css">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
     
@@ -57,7 +58,7 @@
                 <li class="dropdown-hover">
                     <a href="all-services.php" style="min-width: 300px; display: block; text-decoration: none;">Виды услуг</a>
                     <div class="dropdown-menu">
-                        <a href="#">консалтинг</a>
+                        <a href="/consalting.php">консалтинг</a>
                         <a href="#">
                             проектирование
                             <br>строительство
@@ -68,12 +69,12 @@
                             производство транспортных средств
                             <br>инжиниринговая деятельность
                         </a>
-                        <a href="#">
+                        <a href="IT.php">
                             IT технологии
                             <br>автоматизация производства
                             <br>инжиниринговая деятельность</a>
-                        <a href="#">научно-исследовательская деятельность</a>
-                        <a href="#">инженерно-геологические изыскания</a>
+                        <a href="/science.php">научно-исследовательская деятельность</a>
+                        <a href="/geology.php">инженерно-геологические изыскания</a>
                         </div>
                 </li>
                 <li><a href="#">Фото и видео, Youtube канал.</a></li>

@@ -3,8 +3,9 @@
 <link rel="stylesheet" href="./resources/css/slider.css">
 
     <section class="slider">
-        <div class="container"  style="padding-bottom: 0px;">
+        <div class="container" style="padding-bottom: 0px;">
             <div class="swiper-container slider">
+            <h1 class="title">Новые проекты</h1>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="slider-item">                

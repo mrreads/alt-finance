@@ -11,6 +11,15 @@
 	height: 100%;
 }
 
+h1.title
+{
+	margin-top: 35px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
 .swiper-slide
 {
 	font-size: 18px;
@@ -20,14 +29,19 @@
 
 	text-align: center;
 
-	background: #FFFFFF;
+	/* background: #FFFFFF; */
+}
+
+div.slider 
+{
+	background-color: #FFFFFF;
 }
 
 .slider-item
 {
 	padding: 50px 75px 35px 75px;
 
-	background-color: #FFFFFF;
+	
 }
 
 .c-main .services

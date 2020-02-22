@@ -1,0 +1,32 @@
+.service-title 
+{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.service-text
+{   
+    margin-top: 20px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.service-list
+{
+    margin-left: 20px;
+    list-style-type: circle;
+    list-style-position: inside;
+    line-height: 43px;
+}
+
+.service-list li:last-child
+{
+    line-height: 25px;
+}
+
+.service-subtitle
+{
+    margin: 25px 0px 10px 0px;
+}
