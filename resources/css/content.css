@@ -17,14 +17,13 @@
 {
 	flex-grow: 1;
 	width: 100%;
-	margin-right: 25px;
 }
 
 .content .c-right
 {
 	position: sticky;
 	top: 25px;
-
+	margin-left: 25px;
 	align-self: flex-start;
 
 	max-width: 250px;
@@ -165,8 +164,8 @@
 	{
 		margin: 25px 0;
 	}
-	.content .c-left
+	.content .c-right
 	{
-		margin-right: 0;
+		margin-left: 0;
 	}
 }

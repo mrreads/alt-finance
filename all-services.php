@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="./resources/css/slider.css">
 
     <section class="slider">
-        <div class="container">
+        <div class="container"  style="padding-bottom: 0px;">
             <div class="swiper-container slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -49,37 +49,24 @@
         <div class="container">
             <div class="c-left">
                 <div class="c-main">
-                </div>
-                    
-                <div class="c-news">
-                    <div class="news">
-                        <div class="n-title">
-                            <p class="n-heading">заголовок</p>
-                            <p class="n-date">April 01, 2016</p>
+                    <div class="services">
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                            <p>строительство</p>
                         </div>
-                        <hr>
-                        <div class="n-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque doloribus velit ex quidem dicta. Tenetur quia labore pariatur dicta et velit nemo quam accusantium a, quibusdam quos quisquam non.Quo veniam asperiores rerum perferendis assumenda animi, sapiente quasi dolorum blanditiis nulla inventore alias sed minus consequuntur molestias omnis. Minima explicabo mollitia nostrum excepturi provident sit numquam illum. Quas, at.</p>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                            <p>строительство</p>
                         </div>
-                    </div>
-                    <div class="news">
-                        <div class="n-title">
-                            <p class="n-heading">заголовок</p>
-                            <p class="n-date">April 01, 2016</p>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                            <p>строительство</p>
                         </div>
-                        <hr>
-                        <div class="n-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque doloribus velit ex quidem dicta. Tenetur quia labore pariatur dicta et velit nemo quam accusantium a, quibusdam quos quisquam non.Quo veniam asperiores rerum perferendis assumenda animi, sapiente quasi dolorum blanditiis nulla inventore alias sed minus consequuntur molestias omnis. Minima explicabo mollitia nostrum excepturi provident sit numquam illum. Quas, at.</p>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                            <p>строительство</p>
                         </div>
-                    </div>
-                    <div class="news">
-                        <div class="n-title">
-                            <p class="n-heading">заголовок</p>
-                            <p class="n-date">April 01, 2016</p>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                            <p>строительство</p>
                         </div>
-                        <hr>
-                        <div class="n-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque doloribus velit ex quidem dicta. Tenetur quia labore pariatur dicta et velit nemo quam accusantium a, quibusdam quos quisquam non.Quo veniam asperiores rerum perferendis assumenda animi, sapiente quasi dolorum blanditiis nulla inventore alias sed minus consequuntur molestias omnis. Minima explicabo mollitia nostrum excepturi provident sit numquam illum. Quas, at.</p>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                            <p>производтво трнатстпроных средствов</p>
                         </div>
                     </div>
                 </div>

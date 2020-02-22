@@ -1,17 +1,75 @@
-.to-project-page {
-    color: red;
-    text-decoration: none;
+.to-project-page
+{
+	text-decoration: none;
+
+	color: red;
 }
 
-.swiper-container {
-    width: 100%;
-    height: 100%;
+.swiper-container
+{
+	width: 100%;
+	height: 100%;
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    padding: 0 50px;
-    width: 100%;
+.swiper-slide
+{
+	font-size: 18px;
+
+	width: 100%;
+	padding: 0 50px;
+
+	text-align: center;
+
+	background: #FFFFFF;
+}
+
+.slider-item
+{
+	padding: 50px 75px;
+
+	background-color: #FFFFFF;
+}
+
+.c-main .services
+{
+	display: grid;
+
+	grid-gap: 25px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.c-main .service
+{
+	font-size: 24px;
+	font-weight: bold;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	min-width: 200px;
+	min-height: 200px;
+	padding: 25px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+@media screen and (max-width: 900px)
+{
+	.c-main .services
+	{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.c-main .services
+	{
+		grid-template-columns: 1fr;
+	}
 }
