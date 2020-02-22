@@ -1,41 +1,88 @@
 div.container-contacts
 {
-    padding: 0;
+	padding: 0;
 }
 
-div.c-main-contacts 
+div.c-main-contacts
 {
-    box-shadow: none;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: flex-start;
+    padding: 50px 100px;
+
+    font-size: 23px;
+
+	display: flex;
+	align-items: flex-start;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+
+	box-shadow: none;
 }
 
-.c-up, .c-down 
+div.c-main-contacts h2
 {
+    text-transform: uppercase;
+}
+
+.c-main-contacts .c-up, .c-down
+{
+	width: 100%;
+}
+
+.c-main-contacts .c-up, .c-down
+{
+	display: flex;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+div.c-main-contacts .adr
+{
+    margin-right: 55px;
+}
+
+div.c-main-contacts h2
+{
+    text-align: right;
+}
+
+.c-main-contacts .map > iframe
+{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     width: 100%;
 }
 
-.c-up, .c-down
+.c-main-contacts .c-down
 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+	margin-top: 30px;
 }
 
-.c-down
+.c-main-contacts p.first
 {
-    margin-top: 30px;
+	margin-top: 20px;
 }
 
-p.first
+.c-main-contacts p.tel, .c-main-contacts p.adress, .c-main-contacts h1.adress-title, .c-main-contacts h1.tel-title
 {
-    margin-top: 20px;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
-p.tel, p.adress, h1.adress-title, h1.tel-title
+@media screen and (max-width: 1200px)
 {
-    font-family: 'Roboto Condensed', sans-serif;
+    .adr, .c-tel
+    {
+        width: 100%;
+    }
+    div.c-main-contacts .adr
+    {
+        margin-right: 0;
+    }
+    div.c-main-contacts p, .c-main-contacts .c-up .c-tel h2, div.c-main-contacts h2
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .c-main-contacts .c-up .c-tel h2
+    {
+        margin-top: 55px;
+    }
 }

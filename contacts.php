@@ -20,7 +20,7 @@
                     </div>
                 </div>
 
-                <div class="c-down">
+                <div class="c-down map">
                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad3611ef99479b8cbcaddc235610c825dc7aa83b25c3a992cb6a58a1ae19ef9f9&amp;source=constructor" width="895" height="400" frameborder="0"></iframe>
                 </div>
 
