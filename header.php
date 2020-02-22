@@ -52,20 +52,20 @@
             <hr>
             <ul>
                 <li><a href="index.php">Главная</a></li>
-                <li><a href="#">О компании</a></li>
+                <li><a href="/about.php">О компании</a></li>
                 <!-- <li><a href="#">Контакты</a></li> -->
                 <li><a href="#">Список основных продуктов компании</a></li>
                 <li class="dropdown-hover">
                     <a href="all-services.php" style="min-width: 300px; display: block; text-decoration: none;">Виды услуг</a>
                     <div class="dropdown-menu">
                         <a href="/consalting.php">консалтинг</a>
-                        <a href="#">
+                        <a href="/building.php">
                             проектирование
                             <br>строительство
                             <br>реконструкция
                             <br>электромонтажные работы
                             <br>инжиниринговая деятельность</a>
-                        <a href="#">
+                        <a href="/autoVAZ.php">
                             производство транспортных средств
                             <br>инжиниринговая деятельность
                         </a>
