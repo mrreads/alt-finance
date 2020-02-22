@@ -1,44 +1,51 @@
 .main-ul
 {
-    list-style-type: disc; 
-    margin-left: 30px; 
-    width: 100%; 
-    background-color:#fff; 
-    padding: 50px;
-    
+	width: 100%;
+	margin-left: 30px;
+	padding: 50px;
+
+	list-style-type: disc;
+
+	background-color: #FFFFFF;
 }
 
 .main-ul a
 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px !important;
-    color: #000;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 20px !important;
+
+	padding: 5px 15px;
+
+	color: #000000;
 }
 
 .all-services
 {
-    min-width: 300px;
-    display: block; 
-    text-decoration: none;
+	display: block;
+
+	min-width: 300px;
+
+	text-decoration: none;
 }
 
 .daughter-ul
 {
-    list-style-type: disc; 
-    margin-left: 30px;
+	margin-left: 30px;
+
+	list-style-type: disc;
 }
 
-.all-services:hover, .hover:hover 
+.all-services:hover, .hover:hover
 {
-    background-color: rgb(67, 108, 245);
+	background-color: rgb(67, 108, 245);
 }
 
-.all-services:hover 
+.all-services:hover
 {
-    color: white;
+	color: white;
 }
 
-.hover:hover>a
+.hover:hover > a
 {
-    color: white;
+	color: white;
 }
