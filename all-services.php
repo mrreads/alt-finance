@@ -72,10 +72,11 @@
                 </div>
             </div>
         </div>  
-    </secion>
+    </section>
     <!-- END CONTENT-->
 
     <?php include_once ('footer.php');?>
+
     <script type="text/javascript" src="/resources/js/swiper.min.js"></script>
     <script type="text/javascript" src="/resources/js/init-slick.js"></script>
 
