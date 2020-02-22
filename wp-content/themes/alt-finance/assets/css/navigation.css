@@ -1,0 +1,93 @@
+﻿.menu
+{
+	background-color: rgba(255, 255, 255, 1);
+	padding: 15px 50px 0 50px;
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	width: 100%;
+}
+
+.menu > li
+{
+	flex-grow: 1;
+}
+
+.menu > li a, .menu > li p
+{
+	font-size: 11px;
+	font-weight: bold;
+	width: 100%;
+	padding: 20px 15px;
+	min-height: 55px;
+	cursor: pointer;
+	transition: 0.5s all;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+	background-color: #FFFFFF;
+
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.menu > li .sum-menu a, .menu > li .sub-menu p
+{
+	width: 300px;
+	min-height: 0;
+	font-weight: normal;
+	padding: 15px 25px;
+} 
+
+.menu > li a:hover, .menu > li p:hover
+{
+	background-color: rgba(204,204,204,1);
+}
+
+#menu-item-30
+{
+	position: relative;
+}
+
+.sub-menu
+{
+	position: absolute;
+	z-index: 5;
+	left: 50%;
+	top: 55px;
+	display: none !important;
+	overflow: hidden;
+	transform: translateX(-50%);
+	width: 100%;
+}
+
+#menu-item-30:hover .sub-menu
+{
+	display: block !important;
+}
+
+@media screen and (max-width: 450px)
+{
+	.menu
+	{
+		flex-flow: column nowrap;
+		padding: 15px 25px 0 25px;
+
+	}
+	.menu > li
+	{
+		width: 100%;
+	}
+	.sub-menu
+	{
+		width: 100%;
+	}
+	.menu > li .sub-menu a
+	{
+		width: 100%;
+	}
+}

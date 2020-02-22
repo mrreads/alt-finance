@@ -1,0 +1,42 @@
+﻿.content
+{
+	flex-grow: 1;
+
+	margin: 25px 0;
+}
+
+.content .container
+{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+
+
+.content .c-left
+{
+	flex-grow: 1;
+
+	margin-right: 25px;
+}
+
+.content .c-right
+{
+	position: sticky;
+	top: 25px;
+
+	align-self: flex-start;
+
+	max-width: 250px;
+}
+
+.content .c-news
+{
+	margin-top: 25px;
+}
+.c-news, .c-main, .c-right
+{
+	padding: 50px;
+
+	background-color: rgba(255, 255, 255, 1);
+}
