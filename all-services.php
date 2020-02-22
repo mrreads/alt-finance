@@ -1,4 +1,4 @@
-<?php include_once ('header-services.php');?>
+<?php include_once ('header.php');?>
 
 <link rel="stylesheet" href="./resources/css/slider.css">
 
@@ -50,24 +50,24 @@
             <div class="c-left">
                 <div class="c-main">
                     <div class="services">
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>строительство</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </div>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>строительство</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </div>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>строительство</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </div>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>строительство</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </div>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>строительство</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
+                        </div>
+                        <div class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
                             <p>производтво трнатстпроных средствов</p>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
     <?php include_once ('footer.php');?>
 
     <script type="text/javascript" src="/resources/js/swiper.min.js"></script>
-    <script type="text/javascript" src="/resources/js/init-slick.js"></script>
+    <script type="text/javascript" src="/resources/js/init-swiper.js"></script>
 
 
 </body>

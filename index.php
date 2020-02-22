@@ -1,4 +1,4 @@
-<?php include_once('header-main.php');?>
+<?php include_once('header.php');?>
 
     <!-- CONTENT -->
     <secion class="content">

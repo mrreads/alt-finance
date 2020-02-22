@@ -1,0 +1,47 @@
+body
+{
+    background-image: none;
+    background-color: #fff;
+}
+
+div.container-contacts
+{
+    padding: 0;
+}
+
+div.c-main-contacts 
+{
+    box-shadow: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.c-up, .c-down 
+{
+    width: 100%;
+}
+
+.c-up, .c-down
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.c-down
+{
+    margin-top: 30px;
+}
+
+p.first
+{
+    margin-top: 20px;
+}
+
+p.tel, p.adress, h1.adress-title, h1.tel-title
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}

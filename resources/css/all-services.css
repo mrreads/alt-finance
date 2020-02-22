@@ -40,9 +40,6 @@
 
 .c-main .service
 {
-    background-size: cover;
-    background-position: center;
-    
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -55,37 +52,11 @@
 	text-transform: uppercase;
 
 	color: #FFFFFF;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    position: relative;
-}
-
-    .c-main .service::after
-{
-    transition: 0.5s all;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-}
-
-.c-main .service:hover::after
-{
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.c-main .service:hover p
-{
-    opacity: 0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .c-main .service > p
 {
-    transition: 1s all;
-    opacity: 1;
-    z-index: 5  ;
 	font-size: 24px;
 	font-weight: bold;
 }
@@ -115,7 +86,7 @@
 	width: 100%;
 	max-height: 250px;
 	margin: 15px 0;
-    
+
 	object-fit: cover;
 	object-position: top center;
 }

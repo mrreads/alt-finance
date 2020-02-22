@@ -11,6 +11,16 @@
     <link rel="stylesheet" href="./resources/css/navigation.css">s
     <link rel="stylesheet" href="./resources/css/content.css">
     <link rel="stylesheet" href="./resources/css/footer.css">
+
+    <!-- Services -->
+    <link rel="stylesheet" href="./resources/css/all-services.css">
+    <!-- Contacts -->
+    <link rel="stylesheet" href="./resources/css/contacts.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="/resources/css/swiper.min.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
     
 </head>
 <body>
@@ -37,12 +47,12 @@
         <div class="container">
             <hr>
             <ul>
-                <li><a href="#">Главная</a></li>
+                <li><a href="index.php">Главная</a></li>
                 <li><a href="#">О компании</a></li>
                 <li><a href="#">Контакты</a></li>
                 <li><a href="#">Список основных продуктов компании</a></li>
                 <li class="dropdown-hover">
-                    <a href="all-services.php" style="min-width: 300px; display: block; text-decoration: none; color: #000;">Виды услуг</a>
+                    <a href="all-services.php" style="min-width: 300px; display: block; text-decoration: none;">Виды услуг</a>
                     <div class="dropdown-menu">
                         <a href="#">консалтинг</a>
                         <a href="#">
@@ -64,8 +74,8 @@
                         </div>
                 </li>
                 <li><a href="#">Фото и видео, Youtube канал.</a></li>
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#">Карта сайта</a></li>
+                <li><a href="contacts.php">Контакты</a></li>
+                <li><a href="sitecard.php">Карта сайта</a></li>
             </ul>
         </div>
     </nav>
