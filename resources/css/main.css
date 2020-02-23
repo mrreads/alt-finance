@@ -28,7 +28,7 @@ body
 
 	background-image: url("../img/background.jpg");
 	background-size: contain;
-	animation: bgAnimate 25s infinite;
+	animation: bgAnimate 60s infinite;
 	background-size: 100%;
 	background-position: 100% 100%;
 }
