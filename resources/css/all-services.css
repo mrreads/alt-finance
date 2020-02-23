@@ -37,7 +37,7 @@ div.slider
 	background-color: #FFFFFF;
 }
 
-.slider-item
+.all-services .slider-item
 {
 	position: relative;
 
@@ -56,12 +56,12 @@ div.slider
 	background-size: 100%;
 }
 
-.slider-item:hover
+.all-services .slider-item:hover
 {
 	background-size: 105%;
 }
 
-.slider-item::after
+.all-services .slider-item::after
 {
 	position: absolute;
 	top: 0;
@@ -142,23 +142,23 @@ div.slider
 	text-shadow: 2px 2px 0px #000000;
 }
 
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev
+.all-services .swiper-button-next, .swiper-container-rtl .swiper-button-prev
 {
 	right: 25px;
 }
 
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next
+.all-services .swiper-button-prev, .swiper-container-rtl .swiper-button-next
 {
 	left: 25px;
 }
 
-.swiper-button-next, .swiper-button-prev
+.all-services .swiper-button-next, .swiper-button-prev
 {
 	color: #000000;
 	text-shadow: 2px 1px 0px #FFFFFF;
 }
 
-.slider-item h1, .slider-item h2, .slider-item h3, .slider-item p
+.all-services .slider-item h1, .all-services  .slider-item h2, .all-services  .slider-item h3, .all-services  .slider-item p
 {
 	z-index: 5;
 
@@ -168,18 +168,19 @@ div.slider
 	text-shadow: 2px 2px 0px #000000;
 }
 
-.slider-item > h2
+.all-services .slider-item > h2
 {
 	font-size: 52px;
 
 	text-transform: uppercase;
 }
 
-.slider-item > p
+.all-services  .slider-item > p
 {
 	margin-top: 25px;
 }
-.slider-item > img
+
+.all-services .slider-item > img
 {
 	width: 100%;
 	max-height: 250px;
@@ -189,7 +190,7 @@ div.slider
 	object-position: top center;
 }
 
-.slider-item > a
+.all-services  .slider-item > a
 {
 	font-size: 14px;
 	font-weight: 500;
@@ -208,7 +209,7 @@ div.slider
 	background-color: #FFFFFF;
 }
 
-.slider-item > a:hover
+.all-services .slider-item > a:hover
 {
 	color: #FFFFFF;
 	border: 1px solid transparent;
@@ -225,16 +226,16 @@ div.slider
 	{
 		font-size: 2vw;
 	}
-	.slider-item
+	.all-services  .slider-item
 	{
 		padding: 35px 25px;
 	}
-	.swiper-button-next, .swiper-container-rtl .swiper-button-prev
+	.all-services  .swiper-button-next, .all-services  .swiper-container-rtl .swiper-button-prev
 	{
 		right: 20px;
 	}
 
-	.swiper-button-prev, .swiper-container-rtl .swiper-button-next
+	.all-services .swiper-button-prev, .all-services .swiper-container-rtl .swiper-button-next
 	{
 		left: 20px;
 	}
@@ -250,16 +251,16 @@ div.slider
 	{
 		font-size: 3vw;
 	}
-	.slider-item
+	.all-services .slider-item
 	{
 		padding: 25px 15px;
 	}
-	.swiper-button-next, .swiper-container-rtl .swiper-button-prev
+	.all-services .swiper-button-next, .all-services  .swiper-container-rtl .swiper-button-prev
 	{
 		right: 15px;
 	}
 
-	.swiper-button-prev, .swiper-container-rtl .swiper-button-next
+	.all-services .swiper-button-prev, .all-services  .swiper-container-rtl .swiper-button-next
 	{
 		left: 15px;
 	}

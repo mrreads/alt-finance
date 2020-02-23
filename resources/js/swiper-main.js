@@ -1,11 +1,18 @@
 var swiper = new Swiper('.swiper-container', {
-    direction: 'vertical',
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    loop: true,
-    effect: 'fade'
+  effect: 'cube',
+  loop: true,
+  grabCursor: true,
+  cubeEffect: {
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
 });

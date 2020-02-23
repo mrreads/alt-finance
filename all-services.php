@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="./resources/css/slider.css">
 
-    <section class="slider">
+    <section class="slider all-services">
         <div class="container" style="padding-bottom: 0px;">
             <div class="swiper-container slider">
             <!-- <h1 class="title">Новые проекты</h1> -->

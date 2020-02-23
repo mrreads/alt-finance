@@ -117,9 +117,3 @@ hr
 	border-radius: 0.5em;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-
-.content .c-right
-{
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 0px;
-}
