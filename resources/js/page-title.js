@@ -9,7 +9,7 @@ if (pageServicesTitles)
             element.querySelector('h2').nextElementSibling.style.maxHeight = '900px';
             setTimeout(() => {
                 element.querySelector('h2').nextElementSibling.style.opacity = '1';
-                lement.querySelector('h2').nextElementSibling.style.maxHeight = '100%';
+                element.querySelector('h2').nextElementSibling.style.maxHeight = '100%';
             }, 500);
         });
     });

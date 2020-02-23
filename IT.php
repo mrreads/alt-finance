@@ -5,7 +5,7 @@
 <!-- IT -->
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
-        <div class="page-service-title" style="background-image: url('./resources/img/test.jpg');">
+        <div class="page-service-title" style="background-image: url('https://k2consult.ru/upload/medialibrary/572/57270e2666af52ca6b716e65a1bd9e7c.jpg');">
             <h2>IT-услуги</h2>
             <p style="opacity: 0; max-height: 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam earum aliquid id commodi explicabo maxime tempora eius qui assumenda ut quas consequuntur, deserunt voluptatum necessitatibus delectus expedita accusantium ad.
             Mollitia praesentium soluta, obcaecati optio porro unde excepturi magni aspernatur vitae non. Necessitatibus deleniti, cum magni perferendis, voluptatibus fuga corporis excepturi laboriosam blanditiis nulla sit aperiam officia recusandae quasi dolore!
