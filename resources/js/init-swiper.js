@@ -1,6 +1,9 @@
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper-container', 
+{
     loop: true,
-    autoplay: {
+    
+    autoplay:
+    {
       delay: 2500,
       disableOnInteraction: false,
     },
