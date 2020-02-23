@@ -62,24 +62,39 @@
 
 	min-width: 250px;
 	max-width: 250px;
-
-	border-right: 1px solid black;
 }
 
 .page-service-switcher > .switcher-act > .s-a
 {
+	font-family: "Roboto Condensed";
+	font-weight: bold;
+
 	width: 100%;
+	margin: 10px 0;
+	margin-left: -15px;
 	padding: 25px 35px;
 
 	cursor: pointer;
-	text-align: center;
+	text-align: left;
+	text-transform: uppercase;
 
-	border-bottom: 1px solid black;
+	border-radius: 0.7em;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.page-service-switcher > .switcher-act > .s-a:first-child
+{
+	margin-top: 0;
 }
 
 .page-service-switcher > .switcher-act > .s-a.active
 {
-	background-color: rgba(204,204,204,1);
+	margin: 0;
+	margin-left: 0;
+
+	border-radius: 0;
+	border-top-left-radius: 0.7em;
+	border-bottom-left-radius: 0.7em;
 }
 
 .page-service-switcher > .switcher-content
@@ -88,8 +103,7 @@
 
 	padding: 50px;
 
-	border-top-right-radius: 0.5em;
-	border-bottom-right-radius: 0.5em;
+	border-top-left-radius: 0;
 }
 
 .page-service-switcher > .switcher-content > .s-c::-webkit-scrollbar
@@ -113,7 +127,80 @@
 	background-color: unset;
 }
 
-.switcher-act, .switcher-content
+.switcher-content /* , .switcher-act,  */
 {
 	background-color: rgba(255, 255, 255, 1);
+}
+
+
+@media screen and (max-width: 900px)
+{
+	.page-service-switcher
+	{
+		flex-flow: column nowrap;
+	}
+	.page-service-switcher > .switcher-act
+	{
+		position: static;
+
+		display: flex;
+		flex-flow: row wrap;
+
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+	.page-service-switcher > .switcher-act > .s-a
+	{
+		display: inline-block;
+		flex-grow: 1;
+
+		width: auto;
+	}
+	.page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
+	{
+		font-size: 26px;
+	}
+	.page-service-switcher > .switcher-act > .s-a, .page-service-switcher > .switcher-act > .s-a.active
+	{
+		margin: 5px !important;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+
+		border-radius: 0.5em;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	}
+	.page-service-switcher > .switcher-act > .s-a.active
+	{
+		background-color: rgba(204,204,204,1);
+	}
+	.page-service-switcher > .switcher-content
+	{
+		border-top-left-radius: 0.5em;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.page-service-switcher > .switcher-content
+	{
+		padding: 35px;
+	}
+	.page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
+	{
+		font-size: 23px;
+	}
+}
+
+
+@media screen and (max-width: 450px)
+{
+	.page-service-switcher > .switcher-content
+	{
+		padding: 25px;
+	}
 }

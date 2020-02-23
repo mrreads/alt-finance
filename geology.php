@@ -25,7 +25,7 @@
 </section>
 
 <section class="content">
-        <div class="container">
+        <div class="container" style="padding-top: 0;">
             <div class="c-left">
                 <div class="c-main">
                     <div class="services">

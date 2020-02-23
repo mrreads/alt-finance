@@ -47,7 +47,7 @@
     </section>
 
     <section class="content">
-        <div class="container">
+        <div class="container" style="padding-top: 25px;">
             <div class="c-left">
                 <div class="c-main">
                     <div class="services">
