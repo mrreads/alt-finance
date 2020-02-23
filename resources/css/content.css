@@ -5,10 +5,12 @@
 	margin: 25px 0;
 }
 
-section.contacts {
-    background-image: none;
-    background-color: #fff;
-    margin: unset;
+section.contacts
+{
+	margin: unset;
+
+	background-color: #FFFFFF;
+	background-image: none;
 }
 
 .content .container
@@ -20,6 +22,7 @@ section.contacts {
 .content .c-left
 {
 	flex-grow: 1;
+
 	width: 100%;
 }
 
@@ -27,10 +30,11 @@ section.contacts {
 {
 	position: sticky;
 	top: 25px;
-	margin-left: 25px;
+
 	align-self: flex-start;
 
 	max-width: 250px;
+	margin-left: 25px;
 }
 
 .content .c-news
@@ -40,8 +44,9 @@ section.contacts {
 
 .c-main
 {
-	padding: 50px;
 	width: 100%;
+	padding: 50px;
+
 	background-color: rgba(255, 255, 255, 1);
 }
 
@@ -93,7 +98,6 @@ section.contacts {
 
 .c-main, .c-right, .c-news > .news
 {
-	
 	/* border-radius: 1em; */
 }
 

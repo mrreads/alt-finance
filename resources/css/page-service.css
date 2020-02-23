@@ -157,10 +157,12 @@
 
 		width: auto;
 	}
+
 	.page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
 	{
 		font-size: 26px;
 	}
+	s
 	.page-service-switcher > .switcher-act > .s-a, .page-service-switcher > .switcher-act > .s-a.active
 	{
 		margin: 5px !important;
@@ -170,8 +172,8 @@
 		margin-left: 0;
 
 		border-radius: 0.5em;
-		border-top-left-radius: 0;
-		border-bottom-left-radius: 0;
+		border-top-left-radius: 0.5em;
+		border-bottom-left-radius: 0.5em;
 		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	}
 	.page-service-switcher > .switcher-act > .s-a.active

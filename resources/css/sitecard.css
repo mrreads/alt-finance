@@ -22,7 +22,7 @@
 {
 	display: block;
 
-	/* min-width: 300px; */
+/* min-width: 300px; */
 
 	text-decoration: none;
 }
@@ -47,6 +47,7 @@
 .hover:hover > a
 {
 	width: 100%;
+
 	color: white;
 }
 

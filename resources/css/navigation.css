@@ -28,9 +28,15 @@
 {
 	font-size: 11px;
 	font-weight: bold;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 100%;
-	padding: 20px 15px;
 	min-height: 55px;
+	padding: 20px 15px;
+
 	cursor: pointer;
 	transition: 0.5s all;
 	text-align: center;
@@ -38,17 +44,14 @@
 
 	color: #000000;
 	background-color: #FFFFFF;
-
-	display: flex;
-	justify-content: center;
-    align-items: center;
 }
 
 .menu .container > ul li .dropdown-menu a, .menu .container > ul li .dropdown-menu p
 {
+	font-weight: normal;
+
 	width: 300px;
 	min-height: 0;
-	font-weight: normal;
 	padding: 15px 25px;
 }
 
@@ -66,11 +69,16 @@
 {
 	position: absolute;
 	z-index: 5;
-	left: 50%;
 	top: 55px;
+	left: 50%;
+
 	display: none !important;
 	overflow: hidden;
+
 	transform: translateX(-50%);
+
+	border: 1px solid #FFFFFF;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3), 0 3px 2px rgba(0,0,0,0.24);
 }
 
 .dropdown-hover:hover .dropdown-menu
@@ -100,4 +108,4 @@
 	{
 		width: 100%;
 	}
-}	
+}

@@ -108,12 +108,24 @@
 {
 	.header .container
 	{
+		align-items: center;
 		flex-flow: column nowrap;
 		justify-content: center;
-		align-items: center;
 	}
 	.header .header_info
 	{
 		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 550px)
+{
+	.header .header_info > .h-i_logo
+	{
+		margin-right: 15px;
+	}
+	.header .header_info > .h-i_heading
+	{
+		font-size: 7vw;
 	}
 }

@@ -1,32 +1,39 @@
-.service-title 
+.service-title
 {
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 35px;
-    text-transform: uppercase;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 35px;
+
+	margin-bottom: 15px;
+
+	text-align: center;
+	text-transform: uppercase;
+	word-wrap: break-word;
 }
 
 .service-text
-{   
-    /* margin-top: 20px; */
-    text-indent: 20px;
-    line-height: 25px;
+{
+	line-height: 25px;
+	/* margin-top: 20px; */
+
+	text-indent: 20px;
 }
 
 .service-list
 {
-    margin-left: 20px;
-    list-style-type: circle;
-    list-style-position: inside;
-    line-height: 43px;
+	line-height: 43px;
+
+	margin-left: 20px;
+
+	list-style-position: inside;
+	list-style-type: circle;
 }
 
 .service-list li:last-child
 {
-    line-height: 25px;
+	line-height: 25px;
 }
 
 .service-subtitle
 {
-    margin: 25px 0px 10px 0px;
+	margin: 25px 0px 10px 0px;
 }
