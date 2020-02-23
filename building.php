@@ -5,7 +5,7 @@
 <!-- IT -->
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
-        <div class="page-service-title" style="background-image: url('./resources/img/test.jpg');">
+        <div class="page-service-title" style="background-image: url('https://www.aoeks.ru/upload/iblock/d1f/d1ffb9e921cf2f2560836442e1732214.jpg');">
             <h2>проектирование
             <br>строительство
             <br>реконструкция

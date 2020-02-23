@@ -34,6 +34,7 @@
 
 .page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
 {
+	width: 100%;
 	z-index: 1;
 	transition: 1s all;
 	color: white;
