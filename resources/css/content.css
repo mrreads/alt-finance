@@ -1,4 +1,9 @@
-﻿.content
+﻿.swiper-container
+{
+	height: 100%;
+}
+
+.content
 {
 	flex-grow: 1;
 
@@ -51,9 +56,10 @@ section.contacts
 }
 
 .c-right
-{
-	overflow-x: hidden;
-	overflow-y: scroll;
+{	
+	overflow: hidden;
+	/* overflow-x: hidden;
+	overflow-y: scroll; */
 
 	min-width: 250px;
 	max-height: 600px;

@@ -51,33 +51,59 @@
             </div>
 
             <div class="c-right">
-                <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплывающий дом</p>
+                <!-- Slider main container -->
+                <div class="swiper-container">
+
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
+                                <p>всплывающий дом 1</p>
+                            </div>
+
+                            <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
+                                <p>всплывающий дом 2</p>
+                            </div>
+
+                            <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
+                                <p>всплывающий дом 3</p>
+                            </div>
+
+                            <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
+                                <p>всплывающий дом 4</p>
+                            </div>
+
+                            <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
+                                <p>всплывающий дом 5</p>
+                            </div>
+
+                            <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
+                                <p>всплывающий дом 6</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                    <!-- <div class="swiper-button-next"></div> -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+
                 </div>
-                <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплывающий дом</p>
-                </div>
-                <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплывающий дом</p>
-                </div>
-                <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплывающий дом</p>
-                </div>
-                <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплывающий дом</p>
-                </div>
-                <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплывающий дом</p>
-                </div>
-                <div class="c-product" style="background-image: url('./resources/img/test.jpg');">
-                    <p>всплывающий дом</p>
-                </div>
+        
             </div>
         </div>
     </secion>
     <!-- END CONTENT-->
 
     <?php include_once('footer.php');?>
+    <script type="text/javascript" src="/resources/js/swiper-main.js"></script>
 
 </body>
 </html>

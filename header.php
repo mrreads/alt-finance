@@ -7,6 +7,8 @@
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="/resources/css/swiper.min.css">
+    <!-- Sqwiper JS -->
+    <script type="text/javascript" src="/resources/js/swiper.min.js"></script>
 
     <link rel="stylesheet" href="./resources/css/main.css">
     
