@@ -7,16 +7,17 @@
 {
 	font-size: 36px;
 	font-weight: bold;
-
+	transition: 1s all;
 	position: relative;
 
 	display: flex;
 	align-items: center;
+	flex-flow: column nowrap;
 	justify-content: center;
 
 	width: 100%;
 	height: 100%;
-	min-height: 200px;
+	min-height: 600px;
 	padding: 25px;
 
 	text-align: center;
@@ -26,14 +27,24 @@
 	background-size: cover;
 }
 
+.page-services > .c-main > .page-service-title h2
+{
+	cursor: pointer;
+}
+
 .page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
 {
 	z-index: 1;
-
+	transition: 1s all;
 	color: white;
 	text-shadow: 2px 2px 0px #000000;
 }
 
+.page-services > .c-main > .page-service-title > p
+{
+	margin: 25px;
+	font-size: 22px;
+}
 .page-services > .c-main > .page-service-title::after
 {
 	position: absolute;

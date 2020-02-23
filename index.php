@@ -14,10 +14,6 @@
                     Rem dicta ut, laborum quidem repudiandae similique, minima repellendus sit fuga, explicabo dolores fugiat modi consequatur eligendi iure totam nobis accusantium dolor ducimus ipsa labore harum sint ex reprehenderit! Dicta!
                     Distinctio laboriosam quo dolor aliquid autem facere consequuntur odio repudiandae voluptas! Ipsam explicabo mollitia provident, totam quos ipsa, reiciendis eos tempora culpa perspiciatis voluptatum distinctio aut voluptates vero debitis illum.
                     Id ad, facere impedit cupiditate vel aut odit iusto atque neque obcaecati corporis tenetur distinctio accusamus nesciunt ipsa corrupti, aliquid excepturi magnam expedita eius officiis animi hic. Soluta, molestiae voluptas.
-                    <br> <br>
-                    Adipisci, error quos asperiores, veritatis voluptas recusandae dolorem voluptatibus rem corporis doloribus corrupti maiores. Rerum nam, in harum esse id beatae natus non reprehenderit incidunt quas culpa explicabo, dolorum inventore.
-                    Similique eligendi nam vero impedit, atque exercitationem sapiente ipsam, reprehenderit repellat a rem minus fugit fuga quis autem consequuntur mollitia et ab explicabo accusantium? Optio, debitis! Ipsa totam tenetur ipsum.
-                    Quas incidunt amet ab corporis hic accusamus vel vitae impedit dolorem? Iusto veniam magnam tempora ad quidem, voluptate ea at consequuntur, nam qui aspernatur. Impedit quo molestiae laborum repudiandae doloribus.
                 </div>
                 
                 <div class="c-news">
