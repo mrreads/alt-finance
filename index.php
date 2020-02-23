@@ -58,27 +58,27 @@
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="c-product slider-item" style="background-image: url('./resources/img/test.jpg');">
-                                <p>всплывающий дом 1</p>
+                                <a href="#">всплывающий дом 1</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="c-product slider-item" style="background-image: url('https://novate.ru/files/u31112/311122443.jpg');">
-                                <p>всплывающий дом 2</p>
+                            <a href="#">всплывающий дом 2</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="c-product slider-item" style="background-image: url('https://www.korabel.ru/filemanager/IMAGES/0/81/81099.jpg');">
-                                <p>всплывающий дом 3</p>
+                                <a href="#">всплывающий дом 3</<a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="c-product slider-item" style="background-image: url('https://novamett.ru/media/k2/items/cache/3ff2a64fd14a6a6d971315fb7b8085ec_L.jpg');">
-                                <p>всплывающий дом 4</p>
+                                <a href="#">всплывающий дом 4</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="c-product slider-item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Lake_Bigeaux_houseboat.JPG/300px-Lake_Bigeaux_houseboat.JPG');">
-                                <p>всплывающий дом 5</p>
+                                <a href="#">всплывающий дом 5</a>
                             </div>
                         </div>
                     </div>

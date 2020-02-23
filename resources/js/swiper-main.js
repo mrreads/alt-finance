@@ -1,5 +1,5 @@
 var swiper = new Swiper('.swiper-container', {
-  effect: 'cube',
+  effect: 'flip',
   loop: true,
   grabCursor: true,
   cubeEffect: {
