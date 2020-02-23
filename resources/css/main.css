@@ -38,15 +38,11 @@ body
 {
 	from
 	{
-		background-size: 100%;
-	}
-	50%
-	{
-		background-size: 99%;
+		background-position: 100% 100%;
 	}
 	to
 	{
-		background-size: 100%;
+		background-position: 100% 7000%;
 	}
 }
 body, input, a, button
