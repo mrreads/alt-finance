@@ -26,10 +26,31 @@ body
 
 	min-height: 100%;
 
-	background-image: url("../img/background.jpeg");
-	background-size: cover;
+	background-image: url("../img/background.jpg");
+	background-size: contain;
+	animation: bgAnimate 25s infinite;
+	background-size: 100%;
+	background-position: 100% 100%;
 }
 
+@keyframes bgAnimate
+{
+	from
+	{
+		background-size: 100%;
+		background-position: 100% 100%;
+	}
+	50%
+	{
+		background-size: 98%;
+		background-position: 50% 15%;
+	}
+	to
+	{
+		background-size: 100%;
+		background-position: 100% 100%;
+	}
+}
 body, input, a, button
 {
 	font-family: "Roboto", sans-serif;
