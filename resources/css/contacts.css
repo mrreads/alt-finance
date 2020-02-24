@@ -6,6 +6,8 @@ div.container-contacts
 div.c-main-contacts
 {
 	font-size: 23px;
+	border-radius: 0 0 0.5em 0.5em;
+	border-top: 1px solid grey;
 
 	display: flex;
 	align-items: flex-start;
