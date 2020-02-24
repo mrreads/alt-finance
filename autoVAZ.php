@@ -1,14 +1,21 @@
 <?php include('header.php'); ?>
 
 <link rel="stylesheet" href="/resources/css/page-service.css">
+<link rel="stylesheet" href="/resources/css/animate.css">
 
 <!-- IT -->
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
         <div class="page-service-title" style="background-image: url('https://rossaprimavera.ru/static/files/38ef4d3f7b6a.jpg');">
-            <p>Производство транспортных средств
+            <p class="wow fadeInDown" data-wow-delay='0.5s'>Производство транспортных средств
             <br>инжиниринговая деятельность</p>
+            <p class="page-service-title-text wow fadeInUp" data-wow-delay='1s'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deserunt facere nesciunt numquam eveniet ipsa, nam illum, dolores exercitationem fuga qui, consequatur dignissimos iste laudantium ullam reiciendis tenetur suscipit dolore.
+            Modi illum autem molestias. Ipsa in dolor nostrum ea dicta recusandae sunt molestiae. Reiciendis delectus, iusto tenetur velit omnis earum autem voluptatem tempora necessitatibus culpa, porro neque quae beatae corporis?
+            Distinctio cumque quas commodi ullam sint, natus nobis laboriosam, numquam dignissimos nostrum dolore velit recusandae saepe quo fugit obcaecati? Fuga illum sequi ut libero recusandae sint. Corporis reiciendis magnam recusandae.
+            Numquam, expedita assumenda nulla cum, in amet voluptatum, exercitationem aliquid fugit soluta quidem repudiandae provident reprehenderit ipsa nesciunt ea. Ea sed vero odit eius ut magni molestiae, magnam fugiat deserunt?
+            Eos id, blanditiis recusandae autem corrupti impedit, cupiditate velit officiis ipsum obcaecati aliquam nobis inventore quae, molestias expedita nesciunt culpa necessitatibus repudiandae laudantium voluptatum! Ipsam est exercitationem itaque in sapiente. </p>
         </div>
+        
     </div>
 </div>
 
@@ -29,7 +36,7 @@
 
                 <div class="s-c">
 
-                    <p class="service-text wow flip">Разработка проектов и подготовка к производству сертифицированного инновационного транспорта: воздушного, водного, наземного, отличных от уже существующих и не имеющих аналогов в мире.  На данный момент идет разработка летательного аппарата.</p>
+                    <p class="service-text">Разработка проектов и подготовка к производству сертифицированного инновационного транспорта: воздушного, водного, наземного, отличных от уже существующих и не имеющих аналогов в мире.  На данный момент идет разработка летательного аппарата.</p>
                 </div>
 
                 <div class="s-c" style="display: none">
