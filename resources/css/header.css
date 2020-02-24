@@ -156,9 +156,10 @@
 	{
 		margin-right: 15px;
 	}
-	.header .header_info > .h-i_heading
+	.header .header_info .header_info_src > .h-i_heading
 	{
-		font-size: 7vw;
+		font-size: 4vw;
+		text-align: left;
 	}
 }
 
@@ -181,5 +182,9 @@
 	{
 		width: 100%;
 		margin-top: 10px;
+	}
+	.header .header_info .header_info_src > .h-i_heading
+	{
+		font-size: 7vw;
 	}
 }
