@@ -1,26 +1,19 @@
 <?php include_once ('header.php');?>
 
-<section class="content">
-    <div class="container" style="padding-bottom: 0;">
-        <div class="c-left">
-            <div class="c-main">
-                <h1 class="service-title">научно-исследовательская деятельность</h1>
-                <p class="service-text">Разработка строительной, промышленной, авиационной, бытовой робототехники, а также исследования  искусственного интеллекта и роботов в области искусственного интеллекта и подготавливает платформу для фундаментальных, прикладных  исследований и разработок, определяясь с выбором направления, проблемы, а также тематики научного исследования.</p>
+<link rel="stylesheet" href="/resources/css/page-service.css">
+<script src="/resources/js/page-title.js" defer></script>
 
-                <!-- <h3 class="service-subtitle">Ключевые цели специалистов в области консалтинга: </h3>
-                <ul class="service-list">
-                    <li>повышение качества менеджмента;</li>
-                    <li>увеличение эффективности операционной деятельности предприятия;</li>
-                    <li>оптимизация различных бизнес-процессов; </li>
-                    <li>решение проблемных вопросов в экономической, финансовой, юридической,    производственной и других сферах деятельности, снижающих показатели прибыли организации, а также негативно сказывающихся на бизнесе в целом.</li>
-                </ul>  -->
-            </div>
+<div class="container page-services" style="padding-bottom: 0;">
+    <div class="c-main">
+        <div class="page-service-title" style="background-image: url('https://yarkb3.ru/wp-content/uploads/2018/12/kafedra1.jpg');">
+            <h2>научно-исследовательская деятельность</h2>
+            <p style="opacity: 0; max-height: 0px;">Разработка строительной, промышленной, авиационной, бытовой робототехники, а также исследования  искусственного интеллекта и роботов в области искусственного интеллекта и подготавливает платформу для фундаментальных, прикладных  исследований и разработок, определяясь с выбором направления, проблемы, а также тематики научного исследования.</p>
         </div>
     </div>
-</section>
+</div>
 
 <section class="content">
-        <div class="container" style="padding-top: 0;">
+        <div class="container">
             <div class="c-left">
                 <div class="c-main">
                     <div class="services">

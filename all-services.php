@@ -1,7 +1,5 @@
 <?php include_once ('header.php');?>
 
-<link rel="stylesheet" href="./resources/css/slider.css">
-
     <section class="slider all-services">
         <div class="container" style="padding-bottom: 0px;">
             <div class="swiper-container slider">
