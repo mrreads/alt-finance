@@ -18,12 +18,12 @@
 	padding: 15px 50px;
 } */
 
-.header .header_info
+/* .header .header_info
 {
-	/* display: flex;
+	display: flex;
 	align-items: center;
-	flex-flow: row nowrap; */
-}
+	flex-flow: row nowrap;
+} */
 
 .header .header_info_src {
 	display: flex;
@@ -57,6 +57,11 @@
 	display: flex;
 	flex-flow: row nowrap;
 	position: relative;
+}
+
+input
+{
+	outline: none;
 }
 
 .header_act > .f-a_search-f > input[type=search]
@@ -117,6 +122,7 @@
 	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 500rem;
 	background-color: #FFFFFF;
+	outline: none;
 }
 
 .header_act > .f-a_language:hover
