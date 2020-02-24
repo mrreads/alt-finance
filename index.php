@@ -100,7 +100,7 @@
     <!-- END CONTENT-->
 
     <?php include_once('footer.php');?>
-    <script type="text/javascript" src="/resources/js/swiper-main.js"></script>
+    <script type="text/javascript" src="./resources/js/swiper-main.js"></script>
 
 </body>
 </html>

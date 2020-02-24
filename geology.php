@@ -1,7 +1,7 @@
-<?php include_once ('header.php');?>
+<?php include_once ('./header.php');?>
 
-<link rel="stylesheet" href="/resources/css/page-service.css">
-<script src="/resources/js/page-title.js" defer></script>
+<link rel="stylesheet" href="./resources/css/page-service.css">
+<script src="./resources/js/page-title.js" defer></script>
 
 <div class="container page-services">
     <div class="c-main">
@@ -62,4 +62,4 @@
         </div>  
     </section> -->
 
-<?php include_once ('footer.php');?>
+<?php include_once ('./footer.php');?>

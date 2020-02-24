@@ -53,7 +53,7 @@ p.service-text
 	margin: 0 auto;
 	padding: 5px;
 
-	background-image: url("/resources/img/rjd1.png");
+	background-image: url("./resources/img/rjd1.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 80%;

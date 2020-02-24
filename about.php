@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('./header.php'); ?>
 
 <secion class="content">
     <div class="container">
@@ -6,7 +6,7 @@
             <div class="c-main class1">
 
                 <h1 class="service-title wow fadeInDown">о компании</h1>
-                <div class="about-big-img">
+                <div class="about-big-img" style="background-image: url('./resources/img/image 8.jpg');">
 
                     <h1 class="service-title wow fadeInLeft" data-wow-duration="1.4s">Мы - Мультифункциональная компания</h1>
                     <p class="service-text wow fadeInUp" data-wow-duration="1.7s">ООО «Альтернативные Финансы» является развивающейся компанией на российском рынке и объединяющая в себе несколько независимых, базирующихся на продвижении и внедрении инновационных разработок отделений, обладая уникальной экспертизой в области проектирования, управления строительством, автоматизацией производства, жилых комплексов, воздушного, водного и наземного транспорта, IT-технологий, робототехники, а также исследовании искусственного интеллекта и других научно-исследовательских направлений в области фундаментальной и прикладной науке. Компания была основана в 2010 году и уже 10 лет демонстрирует уверенный рост и надежную работу в заявленной сфере деятельности.
@@ -25,27 +25,23 @@
                             <!-- Slides -->
 
                             <div class="swiper-slide">
-                                <a class="slider-item about" href="#">  </a>
+                                <a class="slider-item about" href="#" style="background-image: url('./resources/img/rjd1.png');">  </a>
                                 <p>РЖД</p> 
                             </div>
-
                             <div class="swiper-slide">
-                                <a class="slider-item about" href="#">  </a>
+                                <a class="slider-item about" href="#" style="background-image: url('./resources/img/rjd1.png');">  </a>
                                 <p>РЖД</p> 
                             </div>
-                            
                             <div class="swiper-slide">
-                                <a class="slider-item about" href="#">  </a>
+                                <a class="slider-item about" href="#" style="background-image: url('./resources/img/rjd1.png');">  </a>
                                 <p>РЖД</p> 
                             </div>
-                            
                             <div class="swiper-slide">
-                                <a class="slider-item about" href="#">  </a>
+                                <a class="slider-item about" href="#" style="background-image: url('./resources/img/rjd1.png');">  </a>
                                 <p>РЖД</p> 
                             </div>
-                            
                             <div class="swiper-slide">
-                                <a class="slider-item about" href="#">  </a>
+                                <a class="slider-item about" href="#" style="background-image: url('./resources/img/rjd1.png');">  </a>
                                 <p>РЖД</p> 
                             </div>
                         <div class="swiper-scrollbar"></div>
@@ -75,7 +71,7 @@
     </div>
 </secion>
 
-<?php include('footer.php'); ?>
-<script src="/resources/js/wow.min.js"></script>
-<script src="/resources/js/wow.js"></script>
-<script src="/resources/js/swiper-about.js"></script>
+<?php include('./footer.php'); ?>
+<script src="./resources/js/wow.min.js"></script>
+<script src="./resources/js/wow.js"></script>
+<script src="./resources/js/swiper-about.js"></script>

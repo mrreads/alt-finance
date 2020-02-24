@@ -1,13 +1,14 @@
-﻿let pageServicesTitles = document.querySelectorAll('.c-main > .page-service-title');
+﻿var pageServicesTitles = document.querySelectorAll('.c-main > .page-service-title');
 
-if (pageServicesTitles)
+if (pageServicesTitles) 
 {
-    pageServicesTitles.forEach(element => 
+    pageServicesTitles.forEach(function (element) 
     {
-        element.querySelector('h2').addEventListener('click', function()
+        element.querySelector('h2').addEventListener('click', function () 
         {
             element.querySelector('h2').nextElementSibling.style.maxHeight = '900px';
-            setTimeout(() => {
+            setTimeout(function () 
+            {
                 element.querySelector('h2').nextElementSibling.style.opacity = '1';
                 element.querySelector('h2').nextElementSibling.style.maxHeight = '100%';
             }, 500);
