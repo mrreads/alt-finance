@@ -5,7 +5,7 @@
 <!-- IT -->
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
-        <div class="page-service-title" style="background-image: url('./resources/img/test.jpg');">
+        <div class="page-service-title" style="background-image: url('https://rossaprimavera.ru/static/files/38ef4d3f7b6a.jpg');">
             <p>Производство транспортных средств
             <br>инжиниринговая деятельность</p>
         </div>
@@ -29,7 +29,7 @@
 
                 <div class="s-c">
 
-                    <p class="service-text">Разработка проектов и подготовка к производству сертифицированного инновационного транспорта: воздушного, водного, наземного, отличных от уже существующих и не имеющих аналогов в мире.  На данный момент идет разработка летательного аппарата.</p>
+                    <p class="service-text wow flip">Разработка проектов и подготовка к производству сертифицированного инновационного транспорта: воздушного, водного, наземного, отличных от уже существующих и не имеющих аналогов в мире.  На данный момент идет разработка летательного аппарата.</p>
                 </div>
 
                 <div class="s-c" style="display: none">
@@ -51,6 +51,8 @@
 </div>
 
 <script src="/resources/js/switcher.js"></script>
+<script type="text/javascript" src="/resources/js/wow.min.js"></script>
+<script src="/resources/js/autoVAZ.js"></script>
 <!-- END IT -->
 
 <?php include('footer.php'); ?>
