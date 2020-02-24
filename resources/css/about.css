@@ -1,0 +1,43 @@
+.about-big-img 
+{
+    background-image: url('/resources/img/image 81.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+p.service-text
+{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.class1
+{
+    padding: 20px 50px
+}
+
+.service-text
+{
+    margin-bottom: 20px;
+}
+
+.our-partners
+{
+    margin-top: 45px;
+}
+
+div.about
+{
+    min-width: 130px;
+	min-height: 130px;
+    background-repeat: no-repeat;
+    background-image: url('/resources/img/rjd1.png');
+    background-size: contain;
+    background-position: center;
+}

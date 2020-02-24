@@ -10,6 +10,9 @@
     <!-- Sqwiper JS -->
     <script type="text/javascript" src="/resources/js/swiper.min.js"></script>
 
+    <!-- WOW CSS -->
+    <link rel="stylesheet" href="/resources/css/animate.css">
+
     <link rel="stylesheet" href="./resources/css/main.css">
     
     <link rel="stylesheet" href="./resources/css/header.css">
@@ -25,6 +28,9 @@
     <link rel="stylesheet" href="./resources/css/sitecard.css">
     <!-- Static service pages -->
     <link rel="stylesheet" href="/resources/css/static-service-page.css">
+    <!-- About -->
+    <link rel="stylesheet" href="/resources/css/about.css">
+    
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
     
