@@ -25,33 +25,31 @@
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
+
                             <div class="swiper-slide">
-                                <div class="slider-item about">
-                                    <a style="display: block; width: 100%; height: 100%;" href="#"></a>
-                                    
-                                </div>
-                                <p>РЖД</p>
+                                <a class="slider-item about" href="#">  </a>
+                                <p>РЖД</p> 
                             </div>
 
                             <div class="swiper-slide">
-                                <div class="slider-item about" href="#">
-                                </div>
-                                <p>РЖД</p>
+                                <a class="slider-item about" href="#">  </a>
+                                <p>РЖД</p> 
                             </div>
-
+                            
                             <div class="swiper-slide">
-                                <a class="slider-item about" href="#">
-                                </a>
-                                <p>РЖД</p>
+                                <a class="slider-item about" href="#">  </a>
+                                <p>РЖД</p> 
                             </div>
-
+                            
                             <div class="swiper-slide">
-                                <a class="slider-item about" href="#">
-                                </a>
-                                <p>РЖД</p>
+                                <a class="slider-item about" href="#">  </a>
+                                <p>РЖД</p> 
                             </div>
-                        </div>
-
+                            
+                            <div class="swiper-slide">
+                                <a class="slider-item about" href="#">  </a>
+                                <p>РЖД</p> 
+                            </div>
                         <div class="swiper-scrollbar"></div>
                     </div>
 
@@ -75,6 +73,7 @@
 
             </div>
         </div>
+    </div>
     </div>
 </secion>
 

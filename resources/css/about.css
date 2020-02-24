@@ -1,43 +1,72 @@
-.about-big-img 
+.about-big-img
 {
-    background-image: url('/resources/img/image 81.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+	padding: 50px;
 
-    padding: 50px;
-    color: #fff;
-    border-radius: 10px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	background-image: url("/resources/img/image 81.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 p.service-text
 {
-    font-size: 24px;
-    line-height: 30px;
-    font-family: "Roboto Condensed", sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 24px;
+	line-height: 30px;
 }
 
 .class1
 {
-    padding: 20px 50px
+	padding: 20px 50px;
 }
 
 .service-text
 {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .our-partners
 {
-    margin-top: 45px;
+	margin-top: 45px;
 }
 
-div.about
+
+.our-partners .swiper-slide
 {
-    min-width: 130px;
+	min-width: 150px;
+}
+
+.our-partners .swiper-container
+{
+	margin-bottom: 35px;
+}
+
+.about
+{
+	display: block;
+
+	min-width: 150px;
+	max-width: 250px;
 	min-height: 130px;
-    background-repeat: no-repeat;
-    background-image: url('/resources/img/rjd1.png');
-    background-size: contain;
-    background-position: center;
+	margin: 0 auto;
+	padding: 5px;
+
+	background-image: url("/resources/img/rjd1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+
+@media screen and (max-width: 600px)
+{
+	.about
+	{
+		min-width: unset;
+		max-width: unset;
+		margin: 5px 15px;
+
+		background-size: contain;
+	}
 }
