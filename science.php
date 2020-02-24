@@ -12,7 +12,7 @@
     </div>
 </div>
 
-<section class="content">
+<!-- <section class="content">
         <div class="container">
             <div class="c-left">
                 <div class="c-main">
@@ -39,6 +39,6 @@
                 </div>
             </div>
         </div>  
-    </section>
+    </section> -->
 
 <?php include_once ('footer.php');?>

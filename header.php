@@ -86,7 +86,6 @@
                 </li>
                 <li><a href="/media.php">Фото и видео, Youtube канал.</a></li>
                 <li><a href="contacts.php">Контакты</a></li>
-                <li><a href="sitecard.php">Карта сайта</a></li>
             </ul>
         </div>
     </nav>

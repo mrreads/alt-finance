@@ -31,7 +31,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a class="slider-item" href="/geology.php" style="background-image: url('https://lh3.googleusercontent.com/proxy/cOK3R7U5ytAU0x-rHjj9GzDtCcx6hnhIC8uk2jBA-L2eg7i_7NnZA4CidRNQbpoHOwrLhMfi5T56sOLJnWHtijevVCL--OSz')">
+                        <a class="slider-item" href="/geology.php" style="background-image: url('https://geo-analiz.ru/wp-content/uploads/2018/12/Ris.-2-2.jpg')">
                             <h2>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</h2>
                         </a>
                     </div> 
@@ -60,7 +60,7 @@
                         <a class="service" href="/science.php" style="background-image: url('https://yarkb3.ru/wp-content/uploads/2018/12/kafedra1.jpg')">
                             <p>НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </a>
-                        <a class="service" href="/geology.php" style="background-image: url('https://lh3.googleusercontent.com/proxy/cOK3R7U5ytAU0x-rHjj9GzDtCcx6hnhIC8uk2jBA-L2eg7i_7NnZA4CidRNQbpoHOwrLhMfi5T56sOLJnWHtijevVCL--OSz')">
+                        <a class="service" href="/geology.php" style="background-image: url('https://geo-analiz.ru/wp-content/uploads/2018/12/Ris.-2-2.jpg')">
                             <p>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</p>
                         </a>
                     </div>

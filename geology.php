@@ -33,7 +33,7 @@
     </div>
 </div>
 
-<section class="content">
+<!-- <section class="content">
         <div class="container" style="padding-top: 0;">
             <div class="c-left">
                 <div class="c-main">
@@ -60,6 +60,6 @@
                 </div>
             </div>
         </div>  
-    </section>
+    </section> -->
 
 <?php include_once ('footer.php');?>

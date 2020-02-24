@@ -9,17 +9,17 @@ var swiper = new Swiper('.swiper-container',
     //шоб не фиксировался  
     slidesPerView: 3,
     spaceBetween: 30,
-    freeMode: true,
+    // freeMode: true,
 
     //чтоб с первого на пятый в обратку можно было
     loop: true,
 
     //шоб сам дрыгался
-    // autoplay:
-    // {
-    //   delay: 2500,
-    //   disableOnInteraction: false,
-    // },
+    autoplay:
+    {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
 
     loopFillGroupWithBlank: true
 });
