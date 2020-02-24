@@ -56,6 +56,23 @@
 	color: white;
 }
 
+.main-ul .all-services:hover
+{
+	color: white;
+	text-shadow:#5d5e5f 1px 1px 0, 
+				#5d5e5f 2px 2px 0, 
+				#5d5e5f 3px 3px 0, 
+				#5d5e5f 4px 4px 0, 
+				#5d5e5f 5px 5px 0,
+				#5d5e5f 6px 6px 0,
+				#5d5e5f 7px 7px 0,
+				#5d5e5f 8px 8px 0,
+				#5d5e5f 9px 9px 0,
+				#5d5e5f 10px 10px 0,
+				#5d5e5f 11px 11px 0;
+	transition: textshadow 1s;
+}
+
 .main-ul .hover:hover > a
 {
 	width: 100%;
