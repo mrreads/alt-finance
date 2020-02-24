@@ -59,6 +59,22 @@ p.service-text
 	background-size: 80%;
 }
 
+@media screen and (max-width: 800px)
+{
+    .class1, .about-big-img
+	{
+		padding: 25px;
+	}
+    .service-title
+    {
+        font-size: 25px;
+    }
+    p.service-text
+    {
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 600px)
 {
 	.about
@@ -68,5 +84,21 @@ p.service-text
 		margin: 5px 15px;
 
 		background-size: contain;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+    .service-title
+    {
+        font-size: 23px;
+    }
+    p.service-text
+    {
+        font-size: 13px;
+    }
+    .class1, .about-big-img
+	{
+		padding: 15px;
 	}
 }
