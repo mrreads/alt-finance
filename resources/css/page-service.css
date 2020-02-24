@@ -51,6 +51,14 @@
 	margin: 25px;
 }
 
+.page-services > .c-main > .page-service-title > .page-service-title-button {
+	cursor: pointer;
+}
+
+.page-services > .c-main > .page-service-title > .page-service-title-text {
+	font-size: 20px;
+}
+
 .page-services > .c-main > .page-service-title::after
 {
 	position: absolute;
