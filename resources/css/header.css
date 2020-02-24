@@ -1,9 +1,14 @@
 ﻿.header
 {
 	background-color: rgba(255, 255, 255, 1);
+	padding: 10px 30px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.header .container
+/* .header .container
 {
 	display: flex;
 	align-items: center;
@@ -11,39 +16,54 @@
 	justify-content: space-between;
 
 	padding: 15px 50px;
-}
+} */
 
 .header .header_info
 {
+	/* display: flex;
+	align-items: center;
+	flex-flow: row nowrap; */
+}
+
+.header .header_info_src {
 	display: flex;
 	align-items: center;
 	flex-flow: row nowrap;
+	color: #000;
 }
 
-.header .header_info > .h-i_heading
+.header .header_info  .header_info_src > .h-i_heading
 {
 	font-size: 28px;
+	text-align: center;
 }
-.header .header_info > .h-i_logo
+
+.header .header_info .header_info_src > .h-i_logo
 {
 	max-height: 55px;
 	margin-right: 25px;
 }
 
+.header_act
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 .header_act > .f-a_search-f
 {
-	position: relative;
-
 	display: flex;
 	flex-flow: row nowrap;
+	position: relative;
 }
 
 .header_act > .f-a_search-f > input[type=search]
 {
 	padding: 10px 40px 10px 15px;
-
 	transition: 0.3s all;
-
+	width: 100%;
 	color: rgba(0,0,0,0.4);
 	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 500rem;
@@ -83,10 +103,12 @@
 {
 	font-size: 14px;
 	font-weight: 500;
+	text-align: center;
 
-	width: 100%;
-	margin-top: 15px;
-	padding: 7px 25px;
+	/* width: 100%; */
+	/* margin-top: 15px; */
+	padding: 10px 15px;
+	margin-right: 15px;
 
 	cursor: pointer;
 	transition: 0.3s all;
@@ -104,6 +126,19 @@
 	background-color: rgba(0,0,0,0.9);
 }
 
+@media screen and (max-width: 900px)
+{
+	.header
+	{
+		flex-flow: column nowrap;
+	}
+
+	.header .header_info
+	{
+		margin-bottom: 25px;
+	}
+}
+
 @media screen and (max-width: 800px)
 {
 	.header .container
@@ -112,10 +147,7 @@
 		flex-flow: column nowrap;
 		justify-content: center;
 	}
-	.header .header_info
-	{
-		margin-bottom: 25px;
-	}
+	
 }
 
 @media screen and (max-width: 550px)
@@ -127,5 +159,27 @@
 	.header .header_info > .h-i_heading
 	{
 		font-size: 7vw;
+	}
+}
+
+
+@media screen and (max-width: 466px)
+{
+
+	/* .h-i_heading
+	{
+		text-align: center;
+	} */
+
+	.header_act > .f-a_language
+	{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.f-a_search-f, f-a_search-f > input[type=search]
+	{
+		width: 100%;
+		margin-top: 10px;
 	}
 }

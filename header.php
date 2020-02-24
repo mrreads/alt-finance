@@ -32,26 +32,25 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="container">
             <div class="header_info">
-                <img src="./resources/img/logo.jpg" alt="Логотип компании." class="h-i_logo">
-                <h1 class="h-i_heading">Альтернативные <br> финансы</h1>
+                <a href="/index.php" class="header_info_src">
+                    <img src="./resources/img/logo.jpg" alt="Логотип компании." class="h-i_logo">
+                    <h1 class="h-i_heading">Альтернативные финансы</h1>
+                </a>
             </div>
             <div class="header_act">
+                <button class="f-a_language">Switch to English</button>
                 <form action="" class="f-a_search-f">
-                    <input type="search" name="search">
+                    <input type="search" name="search" placeholder="Search...">
                     <input type="submit" value="">
                 </form>
-                <button class="f-a_language">Switch to English</button>
             </div>
-        </div>
     </header>
     <!-- END HEADER -->
-    
     <!-- NAV -->
     <nav class="menu">
+    <hr>
         <div class="container">
-            <hr>
             <ul>
                 <li><a href="index.php">Главная</a></li>
                 <li><a href="/about.php">О компании</a></li>

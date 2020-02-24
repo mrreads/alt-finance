@@ -1,11 +1,12 @@
 ﻿.menu
 {
 	background-color: rgba(255, 255, 255, 1);
+	margin: 0px 0;
 }
 
 .menu .container
 {
-	padding: 15px 50px 0 50px;
+	padding: 0px 50px 0 50px;
 }
 
 .menu .container > ul
