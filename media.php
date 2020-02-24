@@ -5,8 +5,15 @@
     <source src="/resources/Со стороны.mp4">
 </video>
 
-<audio src="/resources/kod.mp3" controls autoplay style="width: 100%"></audio>
+<audio src="/resources/kod.mp3" controls style="width: 100%" id="aud"></audio>
 
 <a href="/resources/kod.mp3">Скачать</a>
+
+<script>
+
+    document.getElementById('aud').volume = 0.05;
+    alert(myVideo.volume);
+
+</script>
 
 <?php include_once ('footer.php');?>
