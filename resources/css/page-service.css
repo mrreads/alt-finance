@@ -47,8 +47,7 @@
 
 .page-services > .c-main > .page-service-title > p
 {
-	font-size: 22px;
-
+	font-size: 18px;
 	margin: 25px;
 }
 .page-services > .c-main > .page-service-title::after
@@ -175,11 +174,16 @@
 		width: auto;
 	}
 
-	.page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
+	.page-services > .c-main > .page-service-title h2
 	{
-		font-size: 26px;
+		font-size: 7vw;
 	}
-	s
+
+	.page-services > .c-main > .page-service-title p
+	{
+		font-size: 16px;
+	}
+
 	.page-service-switcher > .switcher-act > .s-a, .page-service-switcher > .switcher-act > .s-a.active
 	{
 		margin: 5px !important;
@@ -205,13 +209,13 @@
 
 @media screen and (max-width: 600px)
 {
+	.page-services > .c-main > .page-service-title p
+	{
+		font-size: 14px;
+	}
 	.page-service-switcher > .switcher-content
 	{
 		padding: 35px;
-	}
-	.page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
-	{
-		font-size: 23px;
 	}
 }
 

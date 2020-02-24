@@ -49,16 +49,15 @@ div.slider
 	min-height: 500px;
 	padding: 50px 75px 35px 75px;
 
-	transition: 1s all;
+	transition: 3s all;
 
-	background-position: center;
-	background-size: 100%;
-	background-size: 100%;
+	background-position: left top;
+	background-size: cover;
 }
 
 .all-services .slider-item:hover
 {
-	background-size: 105%;
+	background-position: right bottom;
 }
 
 .all-services .slider-item::after
@@ -259,10 +258,13 @@ div.slider
 	{
 		right: 15px;
 	}
-
 	.all-services .swiper-button-prev, .all-services  .swiper-container-rtl .swiper-button-next
 	{
 		left: 15px;
+	}
+	.all-services .slider-item > h2
+	{
+		font-size: 6vw;
 	}
 }
 
