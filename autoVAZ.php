@@ -1,11 +1,11 @@
 <?php include('./header.php'); ?>
 
 <link rel="stylesheet" href="./resources/css/page-service.css">
-<script src="/resources/js/page-title.js" defer></script>
+<script src="./resources/js/page-title.js" defer></script>
 
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
-        <div class="page-service-title" style="background-image: url('https://rossaprimavera.ru/static/files/38ef4d3f7b6a.jpg');">
+        <div class="page-service-title" style="background-image: url('./resources/img/webp/services/vaz.webp')">
             <h2>Производство транспортных средств</h2>
             <p style="opacity: 0; max-height: 0px;">Разработка проектов и подготовка к производству сертифицированного инновационного транспорта: воздушного, водного, наземного, отличных от уже существующих и не имеющих аналогов в мире.  На данный момент идет разработка летательного аппарата.</p>
         </div>

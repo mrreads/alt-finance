@@ -5,7 +5,7 @@
 
 <div class="container page-services">
     <div class="c-main">
-        <div class="page-service-title" style="background-image: url('https://geo-analiz.ru/wp-content/uploads/2018/12/Ris.-2-2.jpg');">
+        <div class="page-service-title" style="background-image: url('./resources/img/webp/services/geology.webp');">
             <h2>Инженерно - геологические изыскания</h2>
             <p style="opacity: 0; max-height: 0px; text-align: left">
             Комплекс услуг по инженерно-геологическим изысканиям для строительства.

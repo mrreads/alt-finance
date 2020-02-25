@@ -1,7 +1,7 @@
-<?php include_once('header.php');?>
+<?php include_once('./header.php');?>
 
     <!-- CONTENT -->
-    <secion class="content">
+    <section class="content">
         <div class="container">
             <div class="c-left">
                 <div class="c-main">
@@ -57,7 +57,7 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <div class="c-product slider-item" style="background-image: url('./resources/img/webp/14.webp');">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/14.webp');">
                                 <a href="#">всплывающий дом 1</a>
                             </div>
                         </div>
@@ -96,10 +96,10 @@
 
             </div>
         </div>
-    </secion>
+    </section>
     <!-- END CONTENT-->
 
-    <?php include_once('footer.php');?>
+    <?php include_once('./footer.php');?>
     <script type="text/javascript" src="./resources/js/swiper-main.js"></script>
 
 </body>

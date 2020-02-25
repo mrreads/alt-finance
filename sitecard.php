@@ -1,6 +1,6 @@
 <?php include_once('./header.php');?>
 
-<secion class="content contacts">
+<section class="content contacts">
     <div class="container">
 
         <ul class="main-ul">
@@ -36,6 +36,6 @@
         </ul>
     </div>
     
-</secion>
+</section>
 
 <?php include_once('./footer.php');?>

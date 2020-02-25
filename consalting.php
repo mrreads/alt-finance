@@ -1,11 +1,11 @@
 <?php include_once ('header.php');?>
 
-<link rel="stylesheet" href="/resources/css/page-service.css">
-<script src="/resources/js/page-title.js" defer></script>
+<link rel="stylesheet" href="./resources/css/page-service.css">
+<script src="./resources/js/page-title.js" defer></script>
 
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
-        <div class="page-service-title" style="background-image: url('https://myrouble.ru/wp-content/uploads/2018/04/1-consulting-2.jpg');">
+        <div class="page-service-title" style="background-image: url('./resources/img/webp/services/consalting.webp');">
             <h2>консалтинг</h2>
             <p style="opacity: 0; max-height: 0px;">Одним из основных видов деятельности компании «Альтернативные финансы» является консалтинг. 
                 Мы оказываем квалифицированные услуги компаниям, которым необходима независимая оценка их текущей деятельности, анализ эффективности бизнес-процессов предприятия, а также советы экспертов, как улучшить текущую ситуацию.</p>
