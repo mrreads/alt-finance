@@ -1,4 +1,4 @@
-<?php include_once('header.php');?>
+<?php include_once('./header.php');?>
 
 <secion class="content contacts">
     <div class="container container-contacts">
@@ -31,4 +31,4 @@
     </div>
 </secion>
 
-<?php include_once('footer.php');?>
+<?php include_once('./footer.php');?>

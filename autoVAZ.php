@@ -1,6 +1,6 @@
-<?php include('header.php'); ?>
+<?php include('./header.php'); ?>
 
-<link rel="stylesheet" href="/resources/css/page-service.css">
+<link rel="stylesheet" href="./resources/css/page-service.css">
 <script src="/resources/js/page-title.js" defer></script>
 
 <div class="container page-services" style="padding-bottom: 0;">
@@ -50,7 +50,7 @@
     </div>
 </div>
 
-<script src="/resources/js/switcher.js"></script>
+<script src="./resources/js/switcher.js"></script>
 <!-- END IT -->
 
-<?php include('footer.php'); ?>
+<?php include('./footer.php'); ?>
