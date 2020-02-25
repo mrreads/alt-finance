@@ -1,0 +1,116 @@
+div.container-contacts
+{
+	padding: 0 50px;
+}
+
+div.c-main-contacts
+{
+	font-size: 23px;
+	border-radius: 0 0 0.5em 0.5em;
+	border-top: 1px solid grey;
+
+	display: flex;
+	align-items: flex-start;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+
+	padding: 50px 100px;
+
+	box-shadow: none;
+}
+
+div.c-main-contacts h2
+{
+	text-transform: uppercase;
+}
+
+.c-main-contacts .c-up, .c-down
+{
+	width: 100%;
+}
+
+.c-main-contacts .c-up, .c-down
+{
+	display: flex;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+div.c-main-contacts .adr
+{
+	margin-right: 55px;
+}
+
+div.c-main-contacts h2
+{
+	text-align: right;
+}
+
+.c-main-contacts .map > iframe
+{
+	width: 100%;
+
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.c-main-contacts .c-down
+{
+	margin-top: 30px;
+}
+
+.c-main-contacts p.first
+{
+	margin-top: 20px;
+}
+
+.c-main-contacts p.tel, .c-main-contacts p.adress, .c-main-contacts h1.adress-title, .c-main-contacts h1.tel-title
+{
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+@media screen and (max-width: 1200px)
+{
+	.adr, .c-tel
+	{
+		width: 100%;
+	}
+	div.c-main-contacts .adr
+	{
+		margin-right: 0;
+	}
+	div.c-main-contacts p, .c-main-contacts .c-up .c-tel h2, div.c-main-contacts h2
+	{
+		width: 100%;
+
+		text-align: center;
+	}
+	.c-main-contacts .c-up .c-tel h2
+	{
+		margin-top: 55px;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	div.c-main-contacts
+	{
+		padding: 55px 25px;
+	}
+	div.container-contacts
+	{
+		padding: 0 25px;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+	div.c-main-contacts
+	{
+		padding: 55px 15px;
+	}
+	div.container-contacts
+	{
+		padding: 0 20px;
+	}
+}

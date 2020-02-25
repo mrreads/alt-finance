@@ -1,8 +1,21 @@
-﻿.content
+﻿.swiper-container
+{
+	height: 100%;
+}
+
+.content
 {
 	flex-grow: 1;
 
-	margin: 25px 0;
+	/* margin: 25px 0; */
+}
+
+section.contacts
+{
+	margin: unset;
+
+	background-color: #FFFFFF;
+	background-image: none;
 }
 
 .content .container
@@ -11,13 +24,11 @@
 	flex-flow: row nowrap;
 }
 
-
-
 .content .c-left
 {
 	flex-grow: 1;
 
-	margin-right: 25px;
+	width: 100%;
 }
 
 .content .c-right
@@ -28,6 +39,7 @@
 	align-self: flex-start;
 
 	max-width: 250px;
+	margin-left: 25px;
 }
 
 .content .c-news
@@ -37,6 +49,7 @@
 
 .c-main
 {
+	width: 100%;
 	padding: 50px;
 
 	background-color: rgba(255, 255, 255, 1);
@@ -44,9 +57,8 @@
 
 .c-right
 {
-	overflow-x: hidden;
-	overflow-y: scroll;
-
+	/* overflow-x: hidden;
+	overflow-y: scroll; */
 	min-width: 250px;
 	max-height: 600px;
 
@@ -83,14 +95,14 @@
 	display: flex;
 	flex-flow: column nowrap;
 
-	padding: 35px 50px;
+	width: 100%;
+	padding: 25px 40px;
 
 	background-color: rgba(255, 255, 255, 1);
 }
 
 .c-main, .c-right, .c-news > .news
 {
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	/* border-radius: 1em; */
 }
 
@@ -123,9 +135,10 @@
 	flex-flow: column nowrap;
 	justify-content: flex-end;
 
+	height: 100%;
 	min-height: 250px;
-	margin-bottom: 25px;
 
+	border-radius: 0.5em;
 	background-position: center;
 	background-size: cover;
 }
@@ -135,12 +148,15 @@
 	margin-bottom: 0;
 }
 
-.c-product > p
+.c-product > p, .c-product > a
 {
 	padding: 15px;
 
 	text-align: center;
 
+	color: #000000;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
 	background-color: rgba(255, 255, 255, 1);
 }
 
@@ -165,8 +181,8 @@
 	{
 		margin: 25px 0;
 	}
-	.content .c-left
+	.content .c-right
 	{
-		margin-right: 0;
+		margin-left: 0;
 	}
 }

@@ -1,0 +1,293 @@
+.to-project-page
+{
+	text-decoration: none;
+
+	color: red;
+}
+
+.swiper-container
+{
+	width: 100%;
+	height: 100%;
+}
+
+h1.title
+{
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 35px;
+
+	margin-top: 35px;
+
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.swiper-slide
+{
+	font-size: 18px;
+
+	width: 100%;
+
+	text-align: center;
+	/* background: #FFFFFF; */
+}
+
+div.slider
+{
+	background-color: #FFFFFF;
+}
+
+.all-services .slider-item
+{
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+	justify-content: center;
+
+	min-height: 500px;
+	padding: 50px 75px 35px 75px;
+
+	transition: 3s all;
+
+	background-position: left top;
+	background-size: cover;
+}
+
+.all-services .slider-item:hover
+{
+	background-position: right bottom;
+}
+
+.all-services .slider-item::after
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 100%;
+	height: 100%;
+
+	content: "";
+	transition: 0.6s all;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.c-main .services
+{
+	display: grid;
+
+	grid-gap: 25px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.c-main .service
+{
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	min-width: 200px;
+	min-height: 250px;
+	padding: 25px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.c-main .service::after
+{
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	content: "";
+	transition: 0.6s all;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.c-main .service:hover::after
+{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.c-main .service:hover > p
+{
+	opacity: 0;
+}
+
+.c-main .service > p
+{
+	font-size: 24px;
+	font-weight: bold;
+
+	z-index: 1	;
+
+	transition: 1s all;
+
+	opacity: 1;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+.all-services .swiper-button-next, .swiper-container-rtl .swiper-button-prev
+{
+	right: 25px;
+}
+
+.all-services .swiper-button-prev, .swiper-container-rtl .swiper-button-next
+{
+	left: 25px;
+}
+
+.all-services .swiper-button-next, .swiper-button-prev
+{
+	color: #000000;
+	text-shadow: 2px 1px 0px #FFFFFF;
+}
+
+.all-services .slider-item h1, .all-services  .slider-item h2, .all-services  .slider-item h3, .all-services  .slider-item p
+{
+	z-index: 5;
+
+	padding: 0 25px;
+
+	color: #FFFFFF;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+.all-services .slider-item > h2
+{
+	font-size: 52px;
+
+	text-transform: uppercase;
+}
+
+.all-services  .slider-item > p
+{
+	margin-top: 25px;
+}
+
+.all-services .slider-item > img
+{
+	width: 100%;
+	max-height: 250px;
+	margin: 15px 0;
+
+	object-fit: cover;
+	object-position: top center;
+}
+
+.all-services  .slider-item > a
+{
+	font-size: 14px;
+	font-weight: 500;
+
+	display: inline-block;
+
+	margin-top: 25px;
+	padding: 7px 25px;
+
+	cursor: pointer;
+	transition: 0.3s all;
+
+	color: rgba(0,0,0,0.4);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 500rem;
+	background-color: #FFFFFF;
+}
+
+.all-services .slider-item > a:hover
+{
+	color: #FFFFFF;
+	border: 1px solid transparent;
+	background-color: rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width: 1200px)
+{
+	.c-main .services
+	{
+		grid-template-columns: 1fr 1fr;
+	}
+	.c-main .service > p
+	{
+		font-size: 2vw;
+	}
+	.all-services  .slider-item
+	{
+		padding: 35px 25px;
+	}
+	.all-services  .swiper-button-next, .all-services  .swiper-container-rtl .swiper-button-prev
+	{
+		right: 20px;
+	}
+
+	.all-services .swiper-button-prev, .all-services .swiper-container-rtl .swiper-button-next
+	{
+		left: 20px;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+	.c-main .services
+	{
+		grid-template-columns: 1fr;
+	}
+	.c-main .service > p
+	{
+		font-size: 3vw;
+	}
+	.all-services .slider-item
+	{
+		padding: 25px 15px;
+	}
+	.all-services .swiper-button-next, .all-services  .swiper-container-rtl .swiper-button-prev
+	{
+		right: 15px;
+	}
+	.all-services .swiper-button-prev, .all-services  .swiper-container-rtl .swiper-button-next
+	{
+		left: 15px;
+	}
+	.all-services .slider-item > h2
+	{
+		font-size: 6vw;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.c-main .service > p
+	{
+		font-size: 5vw;
+	}
+	.c-main
+	{
+		padding: 35px;
+	}
+}
+
+@media screen and (max-width: 450px)
+{
+	.slider h1.title
+	{
+		font-size: 9vw;
+	}
+	.c-main
+	{
+		padding: 25px;
+	}
+}

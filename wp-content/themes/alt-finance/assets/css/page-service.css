@@ -1,0 +1,229 @@
+﻿.page-services > .c-main
+{
+	padding: 0;
+}
+
+.page-services > .c-main > .page-service-title
+{
+	font-size: 36px;
+	font-weight: bold;
+
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+	justify-content: center;
+
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+	padding: 25px;
+
+	transition: 1s all;
+	text-align: center;
+	text-transform: uppercase;
+
+	background-position: center;
+	background-size: cover;
+}
+
+.page-services > .c-main > .page-service-title h2
+{
+	cursor: pointer;
+}
+
+.page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
+{
+	z-index: 1;
+
+	width: 100%;
+
+	transition: 1s all;
+
+	color: white;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+.page-services > .c-main > .page-service-title > p
+{
+	font-size: 18px;
+	margin: 25px;
+}
+.page-services > .c-main > .page-service-title::after
+{
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	content: "";
+	transition: 0.6s all;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-service-switcher
+{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.page-service-switcher > .switcher-act
+{
+	position: sticky;
+	top: 0;
+
+	align-self: flex-start;
+
+	min-width: 250px;
+	max-width: 250px;
+}
+
+.page-service-switcher > .switcher-act > .s-a
+{
+	font-family: "Roboto Condensed";
+	font-weight: bold;
+
+	width: 100%;
+	margin: 10px 0;
+	margin-left: -15px;
+	padding: 25px 35px;
+
+	cursor: pointer;
+	text-align: left;
+	text-transform: uppercase;
+
+	border-radius: 0.7em;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.page-service-switcher > .switcher-act > .s-a:first-child
+{
+	margin-top: 0;
+}
+
+.page-service-switcher > .switcher-act > .s-a.active
+{
+	margin: 0;
+	margin-left: 0;
+
+	border-radius: 0;
+	border-top-left-radius: 0.7em;
+	border-bottom-left-radius: 0.7em;
+}
+
+.page-service-switcher > .switcher-content
+{
+	flex-grow: 1;
+
+	padding: 50px;
+
+	border-top-left-radius: 0;
+}
+
+.page-service-switcher > .switcher-content > .s-c::-webkit-scrollbar
+{
+	width: 0.5em;
+}
+
+.page-service-switcher > .switcher-content > .s-c::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.page-service-switcher > .switcher-content > .s-c::-webkit-scrollbar-thumb
+{
+	outline: 1px solid rgba(204,204,204,1);
+	background-color: rgba(204,204,204,1);
+}
+
+.p-s-s > .c-main
+{
+	background-color: unset;
+}
+
+.switcher-content /* , .switcher-act,  */
+{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+
+@media screen and (max-width: 900px)
+{
+	.page-service-switcher
+	{
+		flex-flow: column nowrap;
+	}
+	.page-service-switcher > .switcher-act
+	{
+		position: static;
+
+		display: flex;
+		flex-flow: row wrap;
+
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+	.page-service-switcher > .switcher-act > .s-a
+	{
+		display: inline-block;
+		flex-grow: 1;
+
+		width: auto;
+	}
+
+	.page-services > .c-main > .page-service-title h2
+	{
+		font-size: 7vw;
+	}
+
+	.page-services > .c-main > .page-service-title p
+	{
+		font-size: 16px;
+	}
+
+	.page-service-switcher > .switcher-act > .s-a, .page-service-switcher > .switcher-act > .s-a.active
+	{
+		margin: 5px !important;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+
+		border-radius: 0.5em;
+		border-top-left-radius: 0.5em;
+		border-bottom-left-radius: 0.5em;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	}
+	.page-service-switcher > .switcher-act > .s-a.active
+	{
+		background-color: rgba(204,204,204,1);
+	}
+	.page-service-switcher > .switcher-content
+	{
+		border-top-left-radius: 0.5em;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.page-services > .c-main > .page-service-title p
+	{
+		font-size: 14px;
+	}
+	.page-service-switcher > .switcher-content
+	{
+		padding: 35px;
+	}
+}
+
+
+@media screen and (max-width: 450px)
+{
+	.page-service-switcher > .switcher-content
+	{
+		padding: 25px;
+	}
+}
