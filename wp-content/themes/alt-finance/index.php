@@ -66,8 +66,7 @@
                         ?>
                     </div>
                 </div>
-
-
+                
                 <div class="c-right index">
                     <!-- Slider main container -->
                     <div class="swiper-container">

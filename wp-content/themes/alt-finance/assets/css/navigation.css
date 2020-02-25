@@ -48,7 +48,7 @@
 	background-color: rgba(204,204,204,1);
 }
 
-#menu-item-30
+#menu-item-123
 {
 	position: relative;
 }
@@ -65,7 +65,7 @@
 	width: 100%;
 }
 
-#menu-item-30:hover .sub-menu
+#menu-item-123:hover .sub-menu
 {
 	display: block !important;
 }
