@@ -11,7 +11,11 @@
     <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
     <!-- WOW CSS -->
-    <link rel="stylesheet" href="./resources/css/animate.css">
+    <!-- <link rel="stylesheet" href="./resources/css/animate.css"> -->
+
+    <!-- Wow min CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
 
     <link rel="stylesheet" href="./resources/css/main.css">
     
