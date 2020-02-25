@@ -76,6 +76,6 @@
 </secion>
 
 <?php include('footer.php'); ?>
-<script src="/resources/js/wow.min.js"></script>
-<script src="/resources/js/wow.js"></script>
-<script src="/resources/js/swiper-about.js"></script>
+<script src="./resources/js/wow.min.js"></script>
+<script src="./resources/js/wow.js"></script>
+<script src="./resources/js/swiper-about.js"></script>

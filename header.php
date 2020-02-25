@@ -6,12 +6,12 @@
     <title>Document</title>
     
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="/resources/css/swiper.min.css">
-    <!-- Sqwiper JS -->
-    <script type="text/javascript" src="/resources/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <!-- Swiper JS -->
+    <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
     <!-- WOW CSS -->
-    <link rel="stylesheet" href="/resources/css/animate.css">
+    <link rel="stylesheet" href="./resources/css/animate.css">
 
     <link rel="stylesheet" href="./resources/css/main.css">
     
@@ -40,7 +40,7 @@
     <header class="header">
             <div class="header_info">
                 <a href="/index.php" class="header_info_src">
-                    <img src="./resources/img/logo.jpg" alt="Логотип компании." class="h-i_logo">
+                    <img src="./resources/img/webp/index/logo.webp" alt="Логотип компании." class="h-i_logo">
                     <h1 class="h-i_heading">Альтернативные финансы</h1>
                 </a>
             </div>
