@@ -1,11 +1,11 @@
-﻿var buttons = document.querySelectorAll('.page-service-switcher > .switcher-act > .s-a');
-var contents = document.querySelectorAll('.page-service-switcher > .switcher-content > .s-c');
+﻿let buttons = document.querySelectorAll('.page-service-switcher > .switcher-act > .s-a');
+let contents = document.querySelectorAll('.page-service-switcher > .switcher-content > .s-c');
 
-for (var i = 0; i < buttons.length; i++) 
+for (let i = 0; i < buttons.length; i++) 
 {
     buttons[i].addEventListener('click', function () 
     {
-        for (var j = 0; j < buttons.length; j++) 
+        for (let j = 0; j < buttons.length; j++)
         {
             if (i == j) 
             {
