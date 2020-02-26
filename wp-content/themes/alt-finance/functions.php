@@ -5,7 +5,9 @@ function getStyles()
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_style('font', 'https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
     wp_enqueue_style('swiper', get_template_directory_uri() . '/assets/css/swiper.min.css');
-    wp_enqueue_style('WOW CSS', get_template_directory_uri() . '/assets/css/animate.css'); 
+    wp_enqueue_script('swiper-min-js', get_template_directory_uri() .'/assets/js/swiper.min.js'); // , array(), false, true); <--- чтобы в футере был
+
+    wp_enqueue_style('WOW-CSS', get_template_directory_uri() . '/assets/css/animate.css');
 
     wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css');
     wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
@@ -17,33 +19,33 @@ function getStyles()
     wp_enqueue_style('contacts', get_template_directory_uri() . '/assets/css/contacts.css');
     wp_enqueue_style('sitecard', get_template_directory_uri() . '/assets/css/sitecard.css');
     wp_enqueue_style('static-service-page', get_template_directory_uri() . '/assets/css/static-service-page.css');
+    wp_enqueue_style('about-page', get_template_directory_uri() . '/assets/css/about-page.css');
 
     wp_enqueue_style('page-service', get_template_directory_uri() . '/assets/css/page-service.css');
-    wp_enqueue_style('about', get_template_directory_uri() . '/assets/css/about.css');
 }
 
 function getScripts()
 {
-    wp_enqueue_script('swiper', get_template_directory_uri() .'/assets/js/swiper.min.js'); // , array(), false, true); <--- чтобы в футере был
     wp_enqueue_script('swiper-main', get_template_directory_uri() . '/assets/js/swiper-main.js');
 
     if (is_page('all-services'))
     {
         wp_deregister_script('swiper-main');
-        wp_enqueue_script('init-swiper', get_template_directory_uri() .'/assets/js/init-swiper.js', array(), false, true);
+        wp_enqueue_script('init-swiper', get_template_directory_uri() .'/assets/js/init-swiper.js');// , array(), false, true);
     }
 
     if (is_page('about'))
     {
-        wp_enqueue_script('WOW-MIN-JS', get_template_directory_uri() .'/assets/js/wow.min.js', array(), false, true);
-        wp_enqueue_script('WOW-JS', get_template_directory_uri() .'/assets/js/wow.js', array(), false, true);
-        wp_enqueue_script('swiper-about', get_template_directory_uri() . '/assets/js/swiper-about.js', array(), false, true);
+        wp_deregister_script('swiper-main');
+        wp_enqueue_script('WOW-MIN-JS', get_template_directory_uri() .'/assets/js/wow.min.js');//, array(), false, true);
+        wp_enqueue_script('WOW-JS', get_template_directory_uri() .'/assets/js/wow.js');//, array(), false, true);
+        wp_enqueue_script('swiper-about', get_template_directory_uri() . '/assets/js/swiper-about.js');//, array(), false, true);
     }
 
     if (is_page('it') || is_page('science') || is_page('geology') || is_page('consulting') || is_page('building') || is_page('vehicle-production'))
     {
-        wp_enqueue_script('switcher', get_template_directory_uri() . '/assets/js/switcher.js', array(), false, true);
-        wp_enqueue_script('page-title', get_template_directory_uri() . '/assets/js/page-title.js', array(), false, true);
+        wp_enqueue_script('switcher', get_template_directory_uri() . '/assets/js/switcher.js');//, array(), false, true);
+        wp_enqueue_script('page-title', get_template_directory_uri() . '/assets/js/page-title.js');//, array(), false, true);
     }
 }
 
