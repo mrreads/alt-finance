@@ -23,8 +23,9 @@
 
 .header .header_info .header_info_src > .h-i_logo
 {
-	max-height: 55px;
+	max-height: 70px; 
 	margin-right: 25px;
+	transition: all .3s;
 }
 
 .header_act
@@ -187,6 +188,14 @@ img.hidden-nav-button
 	
 }
 
+@media screen and (max-width: 940px)
+{
+	.header .header_info .header_info_src > .h-i_logo{
+		max-height: 50px;
+		transition: all .3s;
+	}
+}
+
 @media screen and (max-width: 800px)
 {
 	.header .container
@@ -211,6 +220,14 @@ img.hidden-nav-button
 	}
 }
 
+
+@media screen and (max-width: 486px)
+{
+	.header .header_info .header_info_src > .h-i_logo{
+		max-height: 40px;
+		transition: all .3s;
+	}
+}
 
 @media screen and (max-width: 466px)
 {

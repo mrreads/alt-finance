@@ -12,9 +12,9 @@ var swiper = new Swiper('.swiper-container',
     shadowScale: 0.94,
   },
   
-  // autoplay: 
-  // {
-  //   delay: 2000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: 
+  {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
 });

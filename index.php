@@ -5,15 +5,7 @@
         <div class="container">
             <div class="c-left">
                 <div class="c-main">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, rerum perferendis? Quisquam ut quaerat modi aperiam eveniet, necessitatibus veritatis nam atque eos explicabo minus, beatae, cupiditate natus inventore a dolorum.
-                    Consequuntur ipsa animi aperiam! Esse nam, minus enim facere ratione magnam atque quidem? Laudantium eos voluptatem eaque atque? Voluptate pariatur tempora sapiente, deserunt assumenda natus nesciunt consequuntur ducimus aperiam et.
-                    In assumenda, autem repudiandae praesentium laudantium animi cumque odio! Nam omnis eos labore sed vitae quo error possimus repellat, voluptates eligendi voluptatem molestiae minima doloremque voluptas pariatur provident tempore similique!
-                    Possimus delectus, cupiditate ipsum nam, facere tenetur, provident dicta doloremque sit porro reprehenderit fugiat. 
-                    <br> <br>
-                    Ab consectetur reiciendis explicabo rem amet quisquam ipsa quos. Delectus unde suscipit ipsam architecto impedit amet?
-                    Rem dicta ut, laborum quidem repudiandae similique, minima repellendus sit fuga, explicabo dolores fugiat modi consequatur eligendi iure totam nobis accusantium dolor ducimus ipsa labore harum sint ex reprehenderit! Dicta!
-                    Distinctio laboriosam quo dolor aliquid autem facere consequuntur odio repudiandae voluptas! Ipsam explicabo mollitia provident, totam quos ipsa, reiciendis eos tempora culpa perspiciatis voluptatum distinctio aut voluptates vero debitis illum.
-                    Id ad, facere impedit cupiditate vel aut odit iusto atque neque obcaecati corporis tenetur distinctio accusamus nesciunt ipsa corrupti, aliquid excepturi magnam expedita eius officiis animi hic. Soluta, molestiae voluptas.
+                    <h1 style="text-align: center; width: 100%;">РЕШЕНИЯ БУДУЩЕГО УЖЕ СЕГОДНЯ!</h1>
                 </div>
                 
                 <div class="c-news">
@@ -68,7 +60,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="c-product slider-item" style="background-image: url('./resources/img/webp/projects/летательный аппарат1.webp'); background-position: center right;">
-                                <a href="#">ЛЕТАТЕЛЬНЫЕ АППАРАТЫ</<a>
+                                <a href="#">ЛЕТАТЕЛЬНЫЕ АППАРАТЫ</a>
                             </div>
                         </div>
                         <div class="swiper-slide">

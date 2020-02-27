@@ -44,8 +44,9 @@
     <header class="header">
             <div class="header_info">
                 <a href="/index.php" class="header_info_src">
-                    <img src="./resources/img/webp/index/logo.webp" alt="Логотип компании." class="h-i_logo">
-                    <h1 class="h-i_heading">Альтернативные финансы</h1>
+                    <!-- <img src="./resources/img/webp/index/logo.webp" alt="Логотип компании." class="h-i_logo"> -->
+                    <!-- <h1 class="h-i_heading">Альтернативные финансы</h1> -->
+                    <img src="./resources/img/logo/лого.jpg" alt="Лого" class="h-i_logo">
                 </a>
             </div>
             <div class="header_act">
