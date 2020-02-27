@@ -7,11 +7,7 @@
     <div class="c-main">
         <div class="page-service-title" style="background-image: url('./resources/img/webp/services/it.webp');">
             <h2>IT-услуги</h2>
-            <p style="opacity: 0; max-height: 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam earum aliquid id commodi explicabo maxime tempora eius qui assumenda ut quas consequuntur, deserunt voluptatum necessitatibus delectus expedita accusantium ad.
-            Mollitia praesentium soluta, obcaecati optio porro unde excepturi magni aspernatur vitae non. Necessitatibus deleniti, cum magni perferendis, voluptatibus fuga corporis excepturi laboriosam blanditiis nulla sit aperiam officia recusandae quasi dolore!
-            Earum quo quaerat asperiores soluta nobis inventore ad doloribus, adipisci laboriosam tenetur vel ab explicabo velit odio quas tempore totam quos, iure repellendus nostrum, rerum numquam. Perspiciatis possimus ipsum ea!
-            Corporis culpa ipsam amet, incidunt ducimus atque facilis expedita delectus repudiandae doloremque facere mollitia labore nulla aperiam, voluptas quasi quis sapiente deserunt eius aliquam id. Quisquam corporis consequatur temporibus repellendus?
-            Distinctio unde voluptatem rem debitis mollitia tenetur nihil recusandae accusamus quam vitae. Recusandae possimus animi pariatur aut nam odio officia, cupiditate temporibus amet vero reiciendis itaque aliquam quod consectetur eveniet?</p>
+            <p>Мы предоставляем широкий спектр услуг в IT-сфере, позволяющий нам lorem input dollar citroen lorem input dollar citroen lorem input dollar citroen lorem input dollar citroen lorem input dollar citroen lorem input dollar citroen </p>
         </div>
     </div>
 </div>
@@ -67,7 +63,10 @@
     </div>
 </div>
 
-<script src="./resources/js/switcher.js"></script>
+
 <!-- END IT -->
 
 <?php include('./footer.php'); ?>
+<script src="./resources/js/switcher.js"></script>
+</body>
+</html>

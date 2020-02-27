@@ -7,7 +7,7 @@
     <div class="c-main">
         <div class="page-service-title" style="background-image: url('./resources/img/webp/services/geology.webp');">
             <h2>Инженерно - геологические изыскания</h2>
-            <p style="opacity: 0; max-height: 0px; text-align: left">
+            <p style="text-align: left;">
             Комплекс услуг по инженерно-геологическим изысканиям для строительства.
             <br>
             <br>
@@ -115,3 +115,5 @@
 
 <?php include_once ('./footer.php');?>
 <script src="./resources/js/switcher.js"></script>
+</body>
+</html>
