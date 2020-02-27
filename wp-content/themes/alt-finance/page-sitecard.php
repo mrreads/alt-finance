@@ -38,8 +38,8 @@
                     </ul>
             </li>
             <li class="hover"><a href="<?php home_url();?>/media">Фото и видео, Youtube канал.</a></li>
-            <li class="hover"><a href="<?php home_url();?>/contacts.php">Контакты</a></li>
-            <li class="hover"><a href="<?php home_url();?>/sitecard.php">Карта сайта</a></li>
+            <li class="hover"><a href="<?php home_url();?>/contacts">Контакты</a></li>
+            <li class="hover"><a href="<?php home_url();?>/sitecard">Карта сайта</a></li>
         </ul>
     </div>
     

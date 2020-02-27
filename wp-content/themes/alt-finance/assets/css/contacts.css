@@ -64,6 +64,16 @@ div.c-main-contacts h2
 	margin-top: 20px;
 }
 
+.c-main-contacts p.tel
+{
+	margin-top: 20px;
+}
+
+.c-main-contacts p.tel:first-child
+{
+	margin-top: 0px;
+}
+
 .c-main-contacts p.tel, .c-main-contacts p.adress, .c-main-contacts h1.adress-title, .c-main-contacts h1.tel-title
 {
 	font-family: "Roboto Condensed", sans-serif;

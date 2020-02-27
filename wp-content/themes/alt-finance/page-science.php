@@ -16,36 +16,7 @@
     </div>
 </div>
 
-<!-- <section class="content">
-        <div class="container">
-            <div class="c-left">
-                <div class="c-main">
-                    <div class="services">
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>КОНСАЛТИНГ</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>IT-ТЕХНОЛОГИИ, АВТОМАТИЗАЦИЯ ПРОИЗВОДСТВА, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</p>
-                        </a>
-                        <a class="service" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478858803_kak-postroit-bystro-i-professionalno.jpg')">
-                            <p>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>  
-    </section> -->
-
-    <div class="container page-services p-s-s">
+<div class="container page-services p-s-s">
     <div class="c-main">
         <div class="page-service-switcher">
             <div class="switcher-act">

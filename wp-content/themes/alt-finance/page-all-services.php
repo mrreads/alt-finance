@@ -9,7 +9,6 @@
 <section class="slider all-services">
     <div class="container" style="padding-bottom: 0px;">
         <div class="swiper-container slider">
-        <!-- <h1 class="title">Новые проекты</h1> -->
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a class="slider-item" href="<?php home_url()?>/consulting" style="background-image: url('https://myrouble.ru/wp-content/uploads/2018/04/1-consulting-2.jpg')">

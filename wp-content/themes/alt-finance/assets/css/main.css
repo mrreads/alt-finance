@@ -28,9 +28,9 @@ body
 
 	animation: bgAnimate 120s infinite;
 
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/webp/index/background.webp");
 	background-position: 100% 100%;
-	background-size: contain;
+	background-size: cover;
 	background-size: 100%;
 }
 

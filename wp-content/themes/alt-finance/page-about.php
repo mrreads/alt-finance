@@ -51,30 +51,12 @@
                                 <a class="slider-item about" href="#" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/webp/about/rjd1.webp');">  </a>
                                 <p>РЖД</p> 
                             </div>
-                        <div class="swiper-scrollbar"></div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
                     </div>
-
                 </div>
-
-                <!-- <h2 class="service-title" style="margin-top: 35px;">Команда</h2>
-                <p class="service-text">Являясь холдингом, «Альтернативные Финансы» может предоставлять полный спектр услуг от научных исследований и разработок до монтажа и обслуживания, сохраняя логику и преемственность проекта на всех этапах.</p>
-
-                <h3 class="service-subtitle">Команда холдинга:</h3>
-                <ul class="service-list">
-                    <li>2 консультанта;</li>
-                    <li>25 научных сотрудников;</li>
-                    <li>13 проектировщиков;</li>
-                    <li>17 конструкторов;</li>
-                    <li>5 программистов;</li>
-                    <li>9 инженеров по эксплуатации;</li>
-                    <li>10 инженеров по пусконаладочным работам;</li>
-                    <li>8 инженеров по оборудованию;</li>
-                    <li>77 членов административного персонала;</li>
-                </ul> -->
-
             </div>
         </div>
-    </div>
     </div>
 </section>
 

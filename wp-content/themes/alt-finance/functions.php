@@ -27,6 +27,7 @@ function getStyles()
 function getScripts()
 {
     wp_enqueue_script('swiper-main', get_template_directory_uri() . '/assets/js/swiper-main.js');
+    wp_enqueue_script('open-menu', get_template_directory_uri() . '/assets/js/open-menu.js');
 
     if (is_page('all-services'))
     {
@@ -54,11 +55,17 @@ function addNavMenu()
     register_nav_menu('header_menu', 'Header menu');
 }
 
+function addThemeFeatures()
+{
+    add_theme_support('post-thumbnails', array('post'));
+}
+
 function removeAdminBar() { return false; }
 add_filter('show_admin_bar', 'removeAdminBar');
 
 add_action('wp_head', 'getStyles');
 add_action('after_setup_theme', 'addNavMenu');
+add_action('after_setup_theme', 'addThemeFeatures');
 add_action('wp_footer', 'getScripts');
 
 ?>

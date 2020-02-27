@@ -13,15 +13,16 @@
 	font-family: "Roboto Condensed", sans-serif;
 	font-size: 20px;
 
-	padding: 5px 15px;
-
-	color: #000000;
-	text-shadow:#cad5e2 1px 1px 0, 
-				#cad5e2 2px 2px 0, 
-				#cad5e2 3px 3px 0, 
-				#cad5e2 4px 4px 0, 
-				#cad5e2 5px 5px 0;
+	padding: 7px 15px;
+	margin: 5px 0;
 	transition: all 1s;
+	overflow: hidden;
+	color: #000000;
+	text-shadow: #CAD5E2 1px 1px 0,
+				 #CAD5E2 2px 2px 0,
+				 #CAD5E2 3px 3px 0
+				 /* #CAD5E2 4px 4px 0,
+				 #CAD5E2 5px 5px 0; */
 }
 
 .main-ul .all-services
@@ -42,54 +43,52 @@
 
 .main-ul .all-services, .hover
 {
-	transition: all 0.3s;
+	border-radius: 0.3em;
+	transition: all 1s;
 }
 
 .main-ul .all-services:hover, .hover:hover
 {
+	transition: all 1s;
+
 	background-color: rgb(67, 108, 245);
-	transition: all 0.2s;
 }
 
 .main-ul .all-services:hover
 {
+	transition: all 1s;
 	color: white;
-}
-
-.main-ul .all-services:hover
-{
-	color: white;
-	text-shadow:#5d5e5f 1px 1px 0, 
-				#5d5e5f 2px 2px 0, 
-				#5d5e5f 3px 3px 0, 
-				#5d5e5f 4px 4px 0, 
-				#5d5e5f 5px 5px 0,
-				#5d5e5f 6px 6px 0,
-				#5d5e5f 7px 7px 0,
-				#5d5e5f 8px 8px 0,
-				#5d5e5f 9px 9px 0,
-				#5d5e5f 10px 10px 0,
-				#5d5e5f 11px 11px 0;
-	transition: textshadow 1s;
+	
+	text-shadow: rgb(0, 41, 85) 1px 1px 0,
+ 				 rgb(0, 41, 85) 2px 2px 0,
+ 				 rgb(0, 41, 85) 3px 3px 0,
+ 				 rgb(0, 41, 85) 4px 4px 0,
+ 				 rgb(0, 41, 85) 5px 5px 0,
+ 				 rgb(0, 41, 85) 6px 6px 0,
+ 				 rgb(0, 41, 85) 7px 7px 0;
+ 				 /* rgb(0, 41, 85) 8px 8px 0,
+ 				 rgb(0, 41, 85) 9px 9px 0,
+ 				 rgb(0, 41, 85) 10px 10px 0,
+ 				 rgb(0, 41, 85) 11px 11px 0; */
 }
 
 .main-ul .hover:hover > a
 {
 	width: 100%;
 
+	transition: all 0.7s;
 	color: white;
-	text-shadow:#5d5e5f 1px 1px 0, 
-				#5d5e5f 2px 2px 0, 
-				#5d5e5f 3px 3px 0, 
-				#5d5e5f 4px 4px 0, 
-				#5d5e5f 5px 5px 0,
-				#5d5e5f 6px 6px 0,
-				#5d5e5f 7px 7px 0,
-				#5d5e5f 8px 8px 0,
-				#5d5e5f 9px 9px 0,
-				#5d5e5f 10px 10px 0,
-				#5d5e5f 11px 11px 0;
-	transition: textshadow 1s;
+	text-shadow: rgb(0, 41, 85) 1px 1px 0,
+				 rgb(0, 41, 85) 2px 2px 0,
+				 rgb(0, 41, 85) 3px 3px 0,
+				 rgb(0, 41, 85) 4px 4px 0,
+				 rgb(0, 41, 85) 5px 5px 0,
+				 rgb(0, 41, 85) 6px 6px 0,
+				 rgb(0, 41, 85) 7px 7px 0;
+				 /* rgb(0, 41, 85) 8px 8px 0,
+				 rgb(0, 41, 85) 9px 9px 0,
+				 rgb(0, 41, 85) 10px 10px 0,
+				 rgb(0, 41, 85) 11px 11px 0; */
 }
 
 @media screen and (max-width: 900px)
@@ -108,8 +107,8 @@
 {
 	.main-ul
 	{
-		padding: 50px;
-		
+		padding: 25px;
+		padding-left: 45px;
 	}
 	.main-ul a
 	{
