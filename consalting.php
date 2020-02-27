@@ -7,8 +7,8 @@
     <div class="c-main">
         <div class="page-service-title" style="background-image: url('./resources/img/webp/services/consalting.webp');">
             <h2>консалтинг</h2>
-            <p style="opacity: 0; max-height: 0px;">Одним из основных видов деятельности компании «Альтернативные финансы» является консалтинг. 
-                Мы оказываем квалифицированные услуги компаниям, которым необходима независимая оценка их текущей деятельности, анализ эффективности бизнес-процессов предприятия, а также советы экспертов, как улучшить текущую ситуацию.</p>
+            <p style="opacity: 0; max-height: 0px;">​ Одним из основных видов деятельности компании «Альтернативные финансы» является консалтинг.
+            <br>Мы оказываем квалифицированные услуги компаниям, которым необходима независимая оценка их текущей деятельности, анализ эффективности бизнес-процессов предприятия, а также советы экспертов, как улучшить текущую ситуацию.</p>
         </div>
     </div>
 </div>
@@ -46,48 +46,57 @@
     <div class="c-main">
         <div class="page-service-switcher">
             <div class="switcher-act">
-                <p class="s-a active">IT технологии</p>
-                <p class="s-a">Автоматизация производства</p>
-                <p class="s-a">Инжиниринговая деятельность</p>
+                <p class="s-a active">повышение качества менеджмента</p>
+                <p class="s-a">увеличение эффективности операционной деятельности предприятия</p>
+                <p class="s-a">оптимизация различных бизнес-процессов</p>
+                <p class="s-a">решение проблемных вопросов в экономической, финансовой, юридической,    производственной и других сферах деятельности</p>
             </div>
             <div class="switcher-content">
 
                 <div class="s-c">
-                    <h3 class="service-subtitle">Услуги по внедрению:</h3>
+                    <h3 class="service-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit:</h3>
                     <ul class="service-list">
-                        <li>Информационной технологии обработки данных;</li>
-                        <li>Информационной технологии управления;</li>
-                        <li>Автоматизации офиса;</li>
-                        <li>Информационной технологии поддержки принятия решений;</li>
-                        <li>Информационной технологии экспертных принятий решений;</li>
+                        <li>Lorem ipsum dolor sit amet;</li>
+                        <li>Lorem ipsum dolor sit amet;</li>
+                        <li>Lorem ipsum dolor sit amet;</li>
+                        <li>Lorem ipsum dolor sit amet;</li>
+                        <li>Lorem ipsum dolor sit amet;</li>
                     </ul>
                 </div>
 
                 <div class="s-c" style="display: none">
-                    <p class="service-text">Полная, частичная и комплексная автоматизация  производства.</p>
-                    <h3 class="service-subtitle">Это помогает добиться следующего:</h3>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <h3 class="service-subtitle">Lorem ipsum dolor sit amet consectetur</h3>
                     <ul class="service-list">
-                        <li>освободить человека от тяжелого ручного труда и повысить безопасность производства;</li>
-                        <li>минимизировать брак продукции, возникающий по причине ошибок работников, улучшить качество изделий и расширить их ассортимент – все это обеспечивает приток клиентов;</li>
-                        <li>увеличить в несколько раз производительность труда – устройства помогают получать большой объем продукции за минимальный отрезок времени;</li>
+                        <li>Lorem ipsum dolor sit amet consectetur;</li>
+                        <li>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur;</li>
+                        <li>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur;</li>
                     </ul>
-                    <p class="service-text">Автоматизация производства способствует достижению главной цели – увеличить прибыль предприятия.</p>
                 </div>
 
                 <div class="s-c" style="display: none">
 
-                    <h3 class="service-subtitle">Обслуживание  инновационных проектов, включающий в себя следующие составляющие:</h3>
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <h3 class="service-subtitle">Lorem ipsum dolor sit amet consectetur</h3>
                     <ul class="service-list">
-                        <li>пред проектные работы (исследование рынка, технико-экономическое обоснование проекта, бизнес-планирование и т.п.), которые призваны ответить на вопрос "будет ли экономический эффект от данного инновационного проекта?"</li>
-                        <li>разработку и предоставление технологий, необходимых для осуществления строительных работ, производственной деятельности, обеспечивающих подготовку данного проекта, а также технологий, требуемых на стадии эксплуатации проекта;</li>
-                        <li>работы, связанные с непосредственной подготовкой к осуществлению проекта (подготовка контрактов, подбор подрядчиков для выполнения работ, то есть обеспечения всего необходимого для осуществления проекта);</li>
-                        <li>проведение строительных работ, производство и комплектная поставка оборудования, сдача производства "под ключ";</li>
-                        <li>работы, связанные с оптимизацией процессов эксплуатации, управления предприятием, сервисное обслуживание, подбор и подготовка кадров и т. д..</li>
+                        <li>Lorem ipsum dolor sit amet consectetur;</li>
+                        <li>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur;</li>
+                        <li>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur;</li>
                     </ul>
                     
                 </div>
 
-                <div class="s-c" style="display: none">555</div>
+                <div class="s-c" style="display: none">
+
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <h3 class="service-subtitle">Lorem ipsum dolor sit amet consectetur</h3>
+                    <ul class="service-list">
+                        <li>Lorem ipsum dolor sit amet consectetur;</li>
+                        <li>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur;</li>
+                        <li>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur;</li>
+                    </ul>
+
+                </div>
             </div>
         </div>
     </div>

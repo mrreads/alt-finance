@@ -10,8 +10,8 @@
     <!-- Swiper JS -->
     <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
-    <!-- WOW CSS -->
-    <!-- <link rel="stylesheet" href="./resources/css/animate.css"> -->
+    <!-- Open Menu JS -->
+    <script src="./resources/js/open-menu.js" defer></script>
 
     <!-- Wow min CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -49,16 +49,21 @@
                 </a>
             </div>
             <div class="header_act">
-                <button class="f-a_language">Switch to English</button>
+                <div class="hidden-button">
+                    <img src="./resources/img/icons/hidden.png" alt="ТЫКАЙ БЛЯТЬ!" class="hidden-nav-button">
+                    <button class="f-a_language">Switch to English</button>
+                </div>
+                
                 <form action="" class="f-a_search-f">
                     <input type="search" name="search" placeholder="Search...">
                     <input type="submit" value="">
                 </form>
+                
             </div>
     </header>
     <!-- END HEADER -->
     <!-- NAV -->
-    <nav class="menu">
+    <nav class="menu" style="display: none;">
     <hr>
         <div class="container">
             <ul>

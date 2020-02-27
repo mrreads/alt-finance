@@ -57,50 +57,114 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/14.webp');">
-                                <a href="#">всплывающий дом 1</a>
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/webp/projects/автомобиль2.webp');">
+                                <a href="#">ЭЛЕКТРОКАРЫ</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/11.webp');">
-                            <a href="#">всплывающий дом 2</a>
+                            <div class="c-product slider-item" style = "background-image: url('./resources/img/webp/projects/воздушный дом.webp');">
+                            <a href="#">ВОЗДУШНЫЕ ДОМА</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/12.webp');">
-                                <a href="#">всплывающий дом 3</<a>
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/webp/projects/летательный аппарат1.webp'); background-position: center right;">
+                                <a href="#">ЛЕТАТЕЛЬНЫЕ АППАРАТЫ</<a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/13.webp');">
-                                <a href="#">всплывающий дом 4</a>
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/webp/projects/подводный отель.webp');">
+                                <a href="#">ПОДВОДНЫЕ ОТЕЛИ</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/11.webp');">
-                                <a href="#">всплывающий дом 5</a>
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/webp/projects/теплицы.webp');">
+                                <a href="#">ТЕПЛИЦЫ</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                    <!-- If we need pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
+                <!-- <div class="swiper-container" style="margin-top: 20px;">
 
-                    <!-- If we need navigation buttons -->
-                    <!-- <div class="swiper-button-prev"></div> -->
-                    <!-- <div class="swiper-button-next"></div> -->
+                    <div class="swiper-wrapper">
 
-                    <!-- If we need scrollbar -->
-                    <!-- <div class="swiper-scrollbar"></div> -->
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/14.webp');">
+                                <a href="#">всплывающий дом 1</a>
+                            </div>
+                        </div>
 
-            </div>
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/11.webp');">
+                            <a href="#">всплывающий дом 2</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/12.webp');">
+                                <a href="#">всплывающий дом 3</<a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/13.webp');">
+                                <a href="#">всплывающий дом 4</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/11.webp');">
+                                <a href="#">всплывающий дом 5</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-container" style="margin-top: 20px;">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/14.webp');">
+                                <a href="#">всплывающий дом 1</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/11.webp');">
+                            <a href="#">всплывающий дом 2</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/12.webp');">
+                                <a href="#">всплывающий дом 3</<a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/13.webp');">
+                                <a href="#">всплывающий дом 4</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="c-product slider-item" style="background-image: url('./resources/img/slider-main/11.webp');">
+                                <a href="#">всплывающий дом 5</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> -->
+            </div>   
         </div>
     </section>
     <!-- END CONTENT-->
 
     <?php include_once('./footer.php');?>
     <script type="text/javascript" src="./resources/js/swiper-main.js"></script>
-
 </body>
 </html>

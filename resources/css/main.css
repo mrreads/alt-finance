@@ -30,7 +30,7 @@ body
 
 	background-image: url("../img/webp/index/background.webp");
 	background-position: 100% 100%;
-	background-size: contain;
+	background-size: cover;
 	background-size: 100%;
 }
 
