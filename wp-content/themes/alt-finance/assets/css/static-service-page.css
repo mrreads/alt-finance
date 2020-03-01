@@ -52,7 +52,7 @@
 	height: 100%;
 	min-height: 600px;
 	padding: 25px;
-	transition: 1s all;
+	/* transition: 1s all; */
 	text-align: center;
 	text-transform: uppercase;
 	background-position: center;
@@ -64,7 +64,7 @@
 {
 	z-index: 1;
 	width: 100%;
-	transition: 1s all;
+	/* transition: 1s all; */
 	color:white;
 	text-shadow: 2px 2px 0px #000000;
 }

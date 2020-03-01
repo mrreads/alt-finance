@@ -23,8 +23,9 @@
 
 .header .header_info .header_info_src > .h-i_logo
 {
-	max-height: 55px;
+	max-height: 70px; 
 	margin-right: 25px;
+	transition: all .3s;
 }
 
 .header_act
@@ -138,7 +139,7 @@ img.hidden-nav-button
 }
 
 
-@media screen and (min-width: 900px)
+@media screen and (min-width: 901px)
 {
 	nav.menu
 	{
@@ -173,9 +174,11 @@ img.hidden-nav-button
 	{
 		display: none;
 	}
-	/* div.hidden-button{
-		display: flex;
-	} */
+	div.hidden-button{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	} 
 	img.hidden-nav-button
 	{
 		display: block;
@@ -185,6 +188,14 @@ img.hidden-nav-button
 		width: 70%;
 	}
 	
+}
+
+@media screen and (max-width: 940px)
+{
+	.header .header_info .header_info_src > .h-i_logo{
+		max-height: 50px;
+		transition: all .3s;
+	}
 }
 
 @media screen and (max-width: 800px)
@@ -211,6 +222,14 @@ img.hidden-nav-button
 	}
 }
 
+
+@media screen and (max-width: 486px)
+{
+	.header .header_info .header_info_src > .h-i_logo{
+		max-height: 40px;
+		transition: all .3s;
+	}
+}
 
 @media screen and (max-width: 466px)
 {

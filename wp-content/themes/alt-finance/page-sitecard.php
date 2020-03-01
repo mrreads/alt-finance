@@ -13,7 +13,7 @@
         <ul class="main-ul">
             <li class="hover"><a href="<?php home_url();?>">Главная</a></li>
             <li class="hover"><a href="<?php home_url();?>/about">О компании</a></li>
-            <li class="hover"><a href="#">Список основных продуктов компании</a></li>
+            <li class="hover"><a href="<?php home_url();?>/all-goods">Список основных продуктов компании</a></li>
             <li class="dropdown-hover">
                 <a href="<?php home_url();?>/all-services" class="all-services">Виды услуг</a>
                     <ul class="daughter-ul">

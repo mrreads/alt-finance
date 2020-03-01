@@ -3,7 +3,9 @@
 function getStyles()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
-    wp_enqueue_style('font', 'https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+    wp_enqueue_style('font-roboto', 'https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+    wp_enqueue_style('font-roboto-condensed', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic-ext');
+
     wp_enqueue_style('swiper', get_template_directory_uri() . '/assets/css/swiper.min.css');
     wp_enqueue_script('swiper-min-js', get_template_directory_uri() .'/assets/js/swiper.min.js'); // , array(), false, true); <--- чтобы в футере был
 
@@ -43,10 +45,21 @@ function getScripts()
         wp_enqueue_script('swiper-about', get_template_directory_uri() . '/assets/js/swiper-about.js');//, array(), false, true);
     }
 
-    if (is_page('it') || is_page('science') || is_page('geology') || is_page('consulting') || is_page('building') || is_page('vehicle-production'))
+    if (is_page('it') || is_page('science') || is_page('geology') || is_page('consulting') || is_page('building') || is_page('vehicle-production') || is_page('project-house'))
     {
         wp_enqueue_script('switcher', get_template_directory_uri() . '/assets/js/switcher.js');//, array(), false, true);
-        wp_enqueue_script('page-title', get_template_directory_uri() . '/assets/js/page-title.js');//, array(), false, true);
+        // wp_enqueue_script('page-title', get_template_directory_uri() . '/assets/js/page-title.js');//, array(), false, true);
+    }
+
+    if (is_page('all-goods'))
+    {
+        wp_deregister_script('swiper-main');
+        wp_enqueue_script('init-swiper1', get_template_directory_uri() . '/assets/js/init-swiper1.js');//, array(), false, true);
+    }
+
+    if (is_page('project-house'))
+    {
+        wp_enqueue_script('page-title', get_template_directory_uri() . '/assets/js/page-title.js');
     }
 }
 

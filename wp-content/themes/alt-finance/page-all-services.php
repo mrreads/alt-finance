@@ -11,32 +11,32 @@
         <div class="swiper-container slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a class="slider-item" href="<?php home_url()?>/consulting" style="background-image: url('https://myrouble.ru/wp-content/uploads/2018/04/1-consulting-2.jpg')">
+                    <a class="slider-item" href="<?php home_url()?>/consulting" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/consalting.webp')">
                         <h2>КОНСАЛТИНГ</h2>
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="slider-item" href="<?php home_url()?>/building" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478692650_865637921.jpg')">
+                    <a class="slider-item" href="<?php home_url()?>/building" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/building.webp')">
                         <h2>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</h2>
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="slider-item"  href="<?php home_url()?>/vehicle-production"style="background-image: url('https://rossaprimavera.ru/static/files/38ef4d3f7b6a.jpg')">
+                    <a class="slider-item"  href="<?php home_url()?>/vehicle-production" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/vaz.webp')">
                         <h2>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</h2>
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="slider-item" href="<?php home_url()?>/IT" style="background-image: url('https://awsimages.detik.net.id/customthumb/2013/07/06/319/datacentre.jpg?w=700&q=90')">
+                    <a class="slider-item" href="<?php home_url()?>/IT" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/it.webp')">
                         <h2>IT-ТЕХНОЛОГИИ, АВТОМАТИЗАЦИЯ ПРОИЗВОДСТВА, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</h2>
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="slider-item" href="<?php home_url()?>/science" style="background-image: url('https://yarkb3.ru/wp-content/uploads/2018/12/kafedra1.jpg')">
+                    <a class="slider-item" href="<?php home_url()?>/science" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/kafedra.webp')">
                         <h2>НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</h2>
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a class="slider-item" href="<?php home_url()?>/geology" style="background-image: url('https://geo-analiz.ru/wp-content/uploads/2018/12/Ris.-2-2.jpg')">
+                    <a class="slider-item" href="<?php home_url()?>/geology" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/geology.webp')">
                         <h2>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</h2>
                     </a>
                 </div> 
@@ -50,22 +50,22 @@
         <div class="c-left">
             <div class="c-main">
                 <div class="services">
-                    <a class="service" href="<?php home_url()?>/consulting" style="background-image: url('https://myrouble.ru/wp-content/uploads/2018/04/1-consulting-2.jpg')">
+                    <a class="service" href="<?php home_url();?>/consulting" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/consalting.webp')">
                         <p>КОНСАЛТИНГ</p>
                     </a>
-                    <a class="service" href="<?php home_url()?>/building" style="background-image: url('https://rcmm.ru/uploads/posts/2016-11/1478692650_865637921.jpg')">
+                    <a class="service" href="<?php home_url();?>/building" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/building.webp')">
                         <p>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                     </a>
-                    <a class="service"  href="<?php home_url()?>/vehicle-production"style="background-image: url('https://rossaprimavera.ru/static/files/38ef4d3f7b6a.jpg')">
+                    <a class="service"  href="<?php home_url();?>/vehicle-production" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/vaz.webp')">
                         <p>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                     </a>
-                    <a class="service" href="<?php home_url()?>/IT" style="background-image: url('https://awsimages.detik.net.id/customthumb/2013/07/06/319/datacentre.jpg?w=700&q=90')">
+                    <a class="service" href="<?php home_url();?>/IT" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/it.webp')">
                         <p>IT-ТЕХНОЛОГИИ, АВТОМАТИЗАЦИЯ ПРОИЗВОДСТВА, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                     </a>
-                    <a class="service" href="<?php home_url()?>/science" style="background-image: url('https://yarkb3.ru/wp-content/uploads/2018/12/kafedra1.jpg')">
+                    <a class="service" href="<?php home_url();?>/science" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/kafedra.webp')">
                         <p>НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</p>
                     </a>
-                    <a class="service" href="<?php home_url()?>/geology" style="background-image: url('https://geo-analiz.ru/wp-content/uploads/2018/12/Ris.-2-2.jpg')">
+                    <a class="service" href="<?php home_url();?>/geology" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/geology.webp')">
                         <p>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</p>
                     </a>
                 </div>
