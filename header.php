@@ -87,7 +87,7 @@
                 <li><a href="./index.php">Главная</a></li>
                 <li><a href="./about.php">О компании</a></li>
                 <!-- <li><a href="#">Контакты</a></li> -->
-                <li><a href="#">Список основных продуктов компании</a></li>
+                <li><a href="./all-goods.php">основные продукты компании</a></li>
                 <li class="dropdown-hover">
                     <a href="./all-services.php" style="min-width: 270px; display: block; text-decoration: none;">Виды услуг</a>
                     <div class="dropdown-menu">

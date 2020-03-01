@@ -28,10 +28,10 @@
 	background-size: cover;
 }
 
-.page-services > .c-main > .page-service-title h2
+/* .page-services > .c-main > .page-service-title h2
 {
 	cursor: pointer;
-}
+} */
 
 .page-services > .c-main > .page-service-title h2, .page-services > .c-main > .page-service-title p
 {

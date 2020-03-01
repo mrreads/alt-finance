@@ -1,4 +1,4 @@
-<?php include_once ('header.php');?>
+<?php include('./header.php'); ?>
 
 <link rel="stylesheet" href="./resources/css/page-service.css">
 <script src="./resources/js/page-title.js" defer></script>

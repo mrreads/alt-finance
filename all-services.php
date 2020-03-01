@@ -51,7 +51,7 @@
                         <a class="service" href="./building.php" style="background-image: url('./resources/img/webp/services/building.webp')">
                             <p>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </a>
-                        <a class="service"  href="/autoVAZ.php"style="background-image: url('./resources/img/webp/services/vaz.webp')">
+                        <a class="service"  href="./autoVAZ.php"style="background-image: url('./resources/img/webp/services/vaz.webp')">
                             <p>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </a>
                         <a class="service" href="./IT.php" style="background-image: url('./resources/img/webp/services/it.webp')">
@@ -70,7 +70,7 @@
     </section>
     <!-- END CONTENT-->
 
-    <?php include_once ('footer.php');?>
+    <?php include_once ('./footer.php');?>
 
     <script type="text/javascript" src="./resources/js/init-swiper.js"></script>
 

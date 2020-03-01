@@ -4,8 +4,8 @@
     <section class="content">
         <div class="container">
             <div class="c-left">
-                <div class="c-main">
-                    <h1 style="text-align: center; width: 100%;">РЕШЕНИЯ БУДУЩЕГО УЖЕ СЕГОДНЯ!</h1>
+                <div class="c-main" style="background-image: url('./resources/img/1.jpg'); height: 500px;">
+                    <h1 class="main-title-about">РЕШЕНИЯ БУДУЩЕГО УЖЕ СЕГОДНЯ!</h1>
                 </div>
                 
                 <div class="c-news">
