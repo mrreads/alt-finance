@@ -141,7 +141,7 @@ img.hidden-nav-button
 
 @media screen and (min-width: 901px)
 {
-	nav.menu
+	.menu
 	{
 		display: flex !important;
 	}
@@ -170,7 +170,7 @@ img.hidden-nav-button
 		width: 100%;
 	}
 
-	nav.menu 
+	.menu 
 	{
 		display: none;
 	}

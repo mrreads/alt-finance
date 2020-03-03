@@ -1,11 +1,6 @@
 <?php wp_head(); ?>
 
 <?php get_header(); ?>
-<?php wp_nav_menu(array(
-    'theme_location' => 'header_menu',
-    'container' => null,
-    'menu_class' => 'menu'
-)); ?>
 
 <section class="content contacts">
     <div class="container container-contacts">

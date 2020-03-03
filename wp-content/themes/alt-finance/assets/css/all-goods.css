@@ -1,0 +1,14 @@
+.c-main .service:hover::after
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.c-main .service:hover > p
+{
+	opacity: 1;
+}
+
+.c-main .service::after, .c-main .service
+{
+	border-radius: 10px;
+}

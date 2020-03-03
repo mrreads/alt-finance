@@ -1,11 +1,7 @@
 <?php wp_head(); ?>
 
 <?php get_header(); ?>
-<?php wp_nav_menu(array(
-    'theme_location' => 'header_menu',
-    'container' => null,
-    'menu_class' => 'menu'
-)); ?>
+
 <!-- IT -->
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">

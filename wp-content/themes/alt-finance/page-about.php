@@ -1,16 +1,11 @@
 <?php wp_head(); ?>
 
 <?php get_header(); ?>
-<?php wp_nav_menu(array(
-    'theme_location' => 'header_menu',
-    'container' => null,
-    'menu_class' => 'menu'
-)); ?>
 
 <section class="content">
     <div class="container">
         <div class="c-left">
-            <div class="c-main class1">
+            <div class="c-main class1" style="background-color: rgba(255, 255, 255, 0.8);">
 
                 <h1 class="service-title wow fadeInDown">о компании</h1>
                 <div class="about-big-img" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/img/webp/about/image81.webp');">
@@ -24,7 +19,7 @@
                 </div>
 
                 <div class="our-partners">
-                    <h1 class="service-title wow fadeInDown" style="margin-bottom: 45px">Мы рабоатем с такими компаниями, как</h1>
+                    <h1 class="service-title wow fadeInDown" style="margin-bottom: 45px">Мы работаем с такими компаниями, как</h1>
                     <!-- Slider main container -->
                     <div class="swiper-container">
                         <!-- Additional required wrapper -->

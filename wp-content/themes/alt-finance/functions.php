@@ -66,6 +66,8 @@ function getScripts()
 function addNavMenu()
 {
     register_nav_menu('header_menu', 'Header menu');
+    register_nav_menu('footer_menu', 'Footer menu');
+
 }
 
 function addThemeFeatures()

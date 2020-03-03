@@ -1,11 +1,6 @@
 <?php wp_head(); ?>
 
 <?php get_header(); ?>
-<?php wp_nav_menu(array(
-    'theme_location' => 'header_menu',
-    'container' => null,
-    'menu_class' => 'menu'
-)); ?>
 
 <section class="content contacts">
     <div class="container">
@@ -34,7 +29,7 @@
                             инжиниринговая деятельность
                         </a></li>
                         <li class="hover"><a href="<?php home_url();?>/science">научно-исследовательская деятельность</a></li>
-                        <li class="hover"><a href="<?php home_url();?>/geology">инженерно-геологические изыскания</a></li>
+                        <li class="hover last-hover"><a href="<?php home_url();?>/geology">инженерно-геологические изыскания</a></li>
                     </ul>
             </li>
             <li class="hover"><a href="<?php home_url();?>/media">Фото и видео, Youtube канал.</a></li>

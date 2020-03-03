@@ -1,16 +1,10 @@
 <?php wp_head(); ?>
 
 <?php get_header(); ?>
-<?php wp_nav_menu(array(
-    'theme_location' => 'header_menu',
-    'container' => null,
-    'menu_class' => 'menu'
-)); ?>
 
     <section class="slider all-services">
         <div class="container" style="padding-bottom: 0px;">
             <div class="swiper-container slider">
-            <!-- <h1 class="title">Новые проекты</h1> -->
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a class="slider-item" href="<?php home_url(); ?>/project-house" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/projects/house/1.jpg')">
@@ -54,28 +48,33 @@
                     <div class="services">
                         <a class="service" href="<?php home_url(); ?>/project-house" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/projects/house/1.jpg')">
                             <p>Всплывающий дом</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/building.webp')">
                             <p>Товар 2</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service"  href="#"style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/vaz.webp')">
                             <p>Товар 3</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/it.webp')">
                             <p>Товар 4</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/kafedra.webp')">
                             <p>Товар 5</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/webp/services/geology.webp')">
                             <p>Товар 6</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>  
     </section>
-    <!-- END CONTENT-->
 
     <?php get_footer(); ?>
     <?php wp_footer(); ?>

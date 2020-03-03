@@ -1,11 +1,6 @@
 <?php wp_head(); ?>
 
 <?php get_header(); ?>
-<?php wp_nav_menu(array(
-    'theme_location' => 'header_menu',
-    'container' => null,
-    'menu_class' => 'menu'
-)); ?>
 
 <link rel="stylesheet" href="./resources/css/page-service.css">
 <script src="./resources/js/page-title.js" defer></script>
@@ -73,6 +68,5 @@
 <?php get_footer(); ?>
 <?php wp_footer(); ?>
 
-<script src="./resources/js/switcher.js"></script>
 </body>
 </html>

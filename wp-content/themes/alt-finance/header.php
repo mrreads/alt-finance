@@ -31,3 +31,10 @@
         </script>
         <noscript><div><img src="https://mc.yandex.ru/watch/58038331" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
 </header>
+
+
+<?php wp_nav_menu(array(
+    'theme_location' => 'header_menu',
+    'container' => null,
+    'menu_class' => 'menu'
+    )); ?>

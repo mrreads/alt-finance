@@ -14,14 +14,6 @@
         <?php get_header(); ?>
         <!-- END HEADER -->
 
-        <!-- NAV -->
-        <?php wp_nav_menu(array(
-            'theme_location' => 'header_menu',
-            'container' => null,
-            'menu_class' => 'menu'
-        )); ?>
-        <!-- END NAV -->
-
         <!-- CONTENT -->
         <section class="content">
             <div class="container">

@@ -1,11 +1,7 @@
 <?php wp_head(); ?>
 
 <?php get_header(); ?>
-<?php wp_nav_menu(array(
-    'theme_location' => 'header_menu',
-    'container' => null,
-    'menu_class' => 'menu'
-)); ?>
+
 <section class="slider all-services">
     <div class="container" style="padding-bottom: 0px;">
         <div class="swiper-container slider">
@@ -73,7 +69,6 @@
         </div>
     </div>  
 </section>
-<!-- END CONTENT-->
 
 <?php get_footer(); ?>
 <?php wp_footer(); ?>
