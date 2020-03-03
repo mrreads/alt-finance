@@ -17,7 +17,7 @@
                 </div>
 
                 <div class="our-partners">
-                    <h1 class="service-title wow fadeInDown" style="margin-bottom: 45px">Мы рабоатем с такими компаниями, как</h1>
+                    <h1 class="service-title wow fadeInDown" style="margin-bottom: 45px">Мы работаем с такими компаниями, как</h1>
                     <!-- Slider main container -->
                     <div class="swiper-container">
                         <!-- Additional required wrapper -->
