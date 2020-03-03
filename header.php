@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="./resources/css/static-service-page.css">
     <!-- About -->
     <link rel="stylesheet" href="./resources/css/about.css">
+    <!-- All goods -->
+    <link rel="stylesheet" href="./resources/css/all-goods.css">
     
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">

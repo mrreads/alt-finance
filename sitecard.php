@@ -27,7 +27,7 @@
                             инжиниринговая деятельность
                         </a></li>
                         <li class="hover"><a href="./science.php">научно-исследовательская деятельность</a></li>
-                        <li class="hover"><a href="./geology.php">инженерно-геологические изыскания</a></li>
+                        <li class="hover last-hover"><a href="./geology.php">инженерно-геологические изыскания</a></li>
                     </ul>
             </li>
             <li class="hover"><a href="#">Фото и видео, Youtube канал.</a></li>

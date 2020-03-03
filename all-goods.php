@@ -47,21 +47,27 @@
                     <div class="services">
                         <a class="service" href="./project-house.php" style="background-image: url('./resources/img/projects/house/1.jpg')">
                             <p>Всплывающий дом</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('./resources/img/webp/services/building.webp')">
                             <p>Товар 2</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service"  href="#"style="background-image: url('./resources/img/webp/services/vaz.webp')">
                             <p>Товар 3</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('./resources/img/webp/services/it.webp')">
                             <p>Товар 4</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('./resources/img/webp/services/kafedra.webp')">
                             <p>Товар 5</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                         <a class="service" href="#" style="background-image: url('./resources/img/webp/services/geology.webp')">
                             <p>Товар 6</p>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
                     </div>
                 </div>

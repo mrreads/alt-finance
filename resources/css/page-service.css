@@ -1,6 +1,7 @@
 ﻿.page-services > .c-main
 {
 	padding: 0;
+	box-shadow: none;
 }
 
 .page-services > .c-main > .page-service-title
@@ -95,7 +96,7 @@
 	text-transform: uppercase;
 
 	border-radius: 0.7em;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .page-service-switcher > .switcher-act > .s-a:first-child
@@ -120,6 +121,8 @@
 	padding: 50px;
 
 	border-top-left-radius: 0;
+	box-shadow: 0px 0px 30px 4px #fff;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .page-service-switcher > .switcher-content > .s-c::-webkit-scrollbar

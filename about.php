@@ -3,7 +3,7 @@
 <section class="content">
     <div class="container">
         <div class="c-left">
-            <div class="c-main class1">
+            <div class="c-main class1" style="background-color: rgba(255, 255, 255, 0.8);">
 
                 <h1 class="service-title wow fadeInDown">о компании</h1>
                 <div class="about-big-img" style="background-image: url('./resources/img/webp/about/image81.webp');">
