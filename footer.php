@@ -15,7 +15,6 @@
             <a href="tel: +79999999999" class="footer-tel">+79999999999 - главный 1</a>
             <a href="tel: +79999999999" class="footer-tel">+79999999999 - главный 2</a>
             <a href="tel: +79999999999" class="footer-tel">+79999999999 - главный 3</a>
-            <a href="tel: +79999999999" class="footer-tel">+79999999999 - главный 4</a>
             <a href="mailto: example@alt-finance.ru" class="footer-tel footer-mail">example@alt-finance.ru</a>
         </div>
     </div>

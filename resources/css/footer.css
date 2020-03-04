@@ -1,8 +1,32 @@
 ﻿.footer
 {
 	margin-top: auto;
-	
+
 	background-color: rgba(255, 255, 255, 1);
+}
+
+.footer nav
+{
+	display: flex;
+	flex-flow: row wrap;
+
+	max-width: 600px;
+	padding: 0 75px;
+}
+
+.tels
+{
+	display: grid;
+	flex-grow: 1;
+
+	grid-template-columns: 1fr 1fr;
+}
+
+.tels p, .tels a
+{
+	display: inline-block;
+
+	justify-self: flex-start;
 }
 
 .footer .container
@@ -12,19 +36,23 @@
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
 
-	padding: 0 50px
+	padding: 5px 50px;
 }
 
 .footer a, .footer p
 {
+	font-size: 13px;
+
+	margin-right: 20px;
+	padding: 10px 20px 10px 15px;
+
 	color: #000000;
-	padding: 5px;
 }
 
 .footer a.card
 {
-	white-space: nowrap;
 	transition: 0.6s all;
+	white-space: nowrap;
 	/* text-align: center; */
 }
 
@@ -41,56 +69,69 @@
 .footer-tel:hover::before
 {
 	width: 100%;
-	transition: all .4s;
-	border: 1px solid #000;
-	
+
+	transition: all 0.4s;
+
+	border: 1px solid #000000;
 }
 
 .footer-tel::before
 {
-	content: '';
-	display: inline-block;
 	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	display: inline-block;
+
 	width: 0%;
 	height: 100%;
-	
-	left: 0;
-	bottom: 0;
-	border-radius: 1em;
-	transition: all .4s;
+
+	content: "";
+	transition: all 0.4s;
+
+	border-radius: 0.6em;
 }
 
-.footer-tel::after{
-	content: '';
-	display: inline-block;
+.footer-tel::after
+{
 	position: absolute;
+	top: 50%;
+	left: -30px;
+
+	display: inline-block;
+
 	width: 20px;
 	height: 20px;
-	left: -22px;
-	top: 5px;
-	background-image: url('../img/icons/call-answer.png');
+
+	content: "";
+	transition: all 0.2s;
+	transform: translateY(-50%);
+
+	background-image: url("../img/icons/call-answer.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-
-	transition: all .2s;
 }
 
 .footer-mail::after
 {
-	content: '';
-	display: inline-block;
 	position: absolute;
+	top: 50%;
+	left: -30px;
+
+	display: inline-block;
+
 	width: 20px;
 	height: 20px;
-	left: -22px;
-	top: 5px;
-	background-image: url('../img/icons/envelope.png');
+
+	content: "";
+	transition: all 0.2s;
+	transform: translateY(-50%);
+
+	background-image: url("../img/icons/envelope.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-
-	transition: all .2s;
 }
 
 .footer a.card:hover
@@ -101,34 +142,53 @@
 .copyright
 {
 	width: 100%;
-	text-align: center;
-	background-color: #272834;
 	padding: 10px 0;
+
+	text-align: center;
+
+	background-color: #272834;
 }
 
 p.copyright-paragraph
 {
 	margin: 0px;
 	padding: 0px;
-	color: #fff;
+
+	color: #FFFFFF;
 }
 
 a.copyright-src
 {
 	display: inline-block;
-	color: #fff;
+
 	padding: 0px;
-	transition: all .3s;
+
+	transition: all 0.3s;
+
+	color: #FFFFFF;
 }
 
-.footer a.copyright-src:hover 
+.footer a.copyright-src:hover
 {
+	transition: all 0.3s;
+
 	color: rgb(138, 138, 138);
-	transition: all .3s;
+}
+
+@media screen and (max-width: 1300px)
+{
+	.tels
+	{
+		grid-template-columns: 1fr;
+	}
 }
 
 @media screen and (max-width: 800px)
 {
+	.footer nav
+	{
+		padding: 0 50px;
+	}
 	.footer .container
 	{
 		flex-flow: column nowrap;
@@ -140,7 +200,22 @@ a.copyright-src
 	}
 	.footer a, .footer p
 	{
-		text-align: center;
 		width: 100%;
+		margin-right: 0;
+
+		text-align: center;
 	}
+	.tels
+	{
+		margin-top: 30px;
+	}
+	.tels a, .tels p
+	{
+		width: auto;
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
 }
