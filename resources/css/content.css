@@ -61,7 +61,10 @@ h1.main-title-about
 	text-align: center; 
 	width: 100%; 
 	font-size: 30px; 
-	color: #000cff;
+	/* color: #000cff; */
+	color: rgb(221, 221, 221);
+	font-family: 'Comfortaa', bold;
+	text-shadow: 10px 5px 5px #000;
 	/* text-shadow: #20ff90 1px 1px 0, #cad5e2 2px 2px 0, 
                  #20ff90 3px 3px 0, #cad5e2 4px 4px 0, 
                  #20ff90 5px 5px 0; */

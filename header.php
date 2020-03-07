@@ -39,6 +39,8 @@
     
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+
 
     <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
