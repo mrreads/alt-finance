@@ -6,34 +6,34 @@
             <!-- <h1 class="title">Новые проекты</h1> -->
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a class="slider-item" href="./project-house.php" style="background-image: url('./resources/img/projects/house/1.jpg')">
+                        <div class="slider-item" href="./project-house.php" style="background-image: url('./resources/img/projects/house/1.jpg')">
                             <h2>Всплывающий дом</h2>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a class="slider-item" href="./building.php" style="background-image: url('./resources/img/webp/services/building.webp')">
-                            <h2>Товар 2</h2>
-                        </a>
+                        <div class="slider-item" href="#" style="background-image: url('./resources/img/projects/trash/trash.jpg')">
+                            <h2>Мусороперерабатывающие заводы</h2>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a class="slider-item"  href="./autoVAZ.php" style="background-image: url('./resources/img/webp/services/vaz.webp')">
+                        <div class="slider-item"  href="#" style="background-image: url('./resources/img/webp/services/vaz.webp')">
                             <h2>Товар 3</h2>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a class="slider-item" href="./IT.php" style="background-image: url('./resources/img/webp/services/it.webp')">
+                        <div class="slider-item" href="#" style="background-image: url('./resources/img/webp/services/it.webp')">
                             <h2>Товар 4</h2>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a class="slider-item" href="./science.php" style="background-image: url('./resources/img/webp/services/kafedra.webp')">
+                        <div class="slider-item" href="#" style="background-image: url('./resources/img/webp/services/kafedra.webp')">
                             <h2>Товар 5</h2>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a class="slider-item" href="./geology.php" style="background-image: url('./resources/img/webp/services/geology.webp')">
+                        <div class="slider-item" href="#" style="background-image: url('./resources/img/webp/services/geology.webp')">
                             <h2>Товар 6</h2>
-                        </a>
+                        </div>
                     </div> 
                 </div>  
             </div>
@@ -49,9 +49,17 @@
                             <p>Всплывающий дом</p>
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
                         </a>
-                        <a class="service" href="#" style="background-image: url('./resources/img/webp/services/building.webp')">
-                            <p>Товар 2</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
+                        <a class="service" href="#" style="background-image: url('./resources/img/projects/trash/trash.jpg')">
+                            <p>Мусороперерабатывающие заводы</p>
+                            <span>  
+                                Строительство перерабатывающих заводов позволит не только перерабатывать отходы, но и переработанную продукцию применять в различных отраслях.
+                                <!-- Такой тип заводов позиционирует к существующим следующим:
+                                    - внедрением новых технологических процессов по переработке мусора;
+                                    - отсутствием выбросов СО(2) и сопутствующих химических соединений;
+                                    - исключение ручной сортировки;
+                                    - переработка как смешанного вида отходов, так и раздельного;
+                                Раздельный вид подразделяется на отходы органические и не органические. -->
+                            </span>
                         </a>
                         <a class="service"  href="#"style="background-image: url('./resources/img/webp/services/vaz.webp')">
                             <p>Товар 3</p>

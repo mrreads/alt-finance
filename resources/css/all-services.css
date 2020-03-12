@@ -145,6 +145,8 @@ div.slider
 	max-height: 0;
 	opacity: 0;
 	transition: 0.3s all;
+	text-transform: none;
+	font-size: 18px;
 }
 
 .c-main .service:hover > span
@@ -155,7 +157,7 @@ div.slider
 
 .c-main .service > p
 {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: bold;
 
 	z-index: 1	;
@@ -195,7 +197,7 @@ div.slider
 .all-services .slider-item > h2
 {
 	font-size: 52px;
-
+	cursor: default;
 	text-transform: uppercase;
 }
 

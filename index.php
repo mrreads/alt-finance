@@ -4,12 +4,12 @@
     <section class="content">
         <div class="container">
             <div class="c-left">
-                <div class="c-main" style="background-image: url('./resources/img/1.jpg'); height: 500px;">
+                <div class="c-main" style="background-image: url('./resources/img/1.jpg'); height: 500px; display: flex; align-items: center;">
                     <h1 class="main-title-about">
                         РЕШЕНИЯ
-                        БУДУЩЕГО
-                        УЖЕ
-                        СЕГОДНЯ!
+                        <br>БУДУЩЕГО
+                        <br>УЖЕ
+                        <br>СЕГОДНЯ!
                     </h1>
                 </div>
                 

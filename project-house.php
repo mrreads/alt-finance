@@ -5,7 +5,7 @@
 
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
-        <div class="page-service-title" style="background-image: url('./resources/img/projects/house/1.jpg'); background-size: contain;
+        <div class="page-service-title" style="background-image: url('./resources/img/projects/house/1.jpg');
         background-repeat: no-repeat;">
             <h2>Всплывающий дом</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus molestiae iusto sapiente est praesentium eum, in nostrum rerum magni omnis inventore ducimus libero voluptatibus blanditiis? Dolorem corrupti omnis quibusdam.</p>
