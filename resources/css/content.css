@@ -60,7 +60,7 @@ h1.main-title-about
 {
 	text-align: center; 
 	width: 100%; 
-	font-size: 30px; 
+	font-size: 35px; 
 	/* color: #000cff; */
 	color: rgb(221, 221, 221);
 	font-family: 'Comfortaa', bold;
@@ -68,6 +68,11 @@ h1.main-title-about
 	/* text-shadow: #20ff90 1px 1px 0, #cad5e2 2px 2px 0, 
                  #20ff90 3px 3px 0, #cad5e2 4px 4px 0, 
                  #20ff90 5px 5px 0; */
+}
+
+span.upper-text
+{
+	font-size: 50px;
 }
 
 .c-right
@@ -109,11 +114,15 @@ h1.main-title-about
 {
 	display: flex;
 	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-evenly;
 
 	width: 100%;
 	padding: 25px 40px;
 
 	background-color: rgba(255, 255, 255, 1);
+
+	box-shadow: inset 0px 0px 20px 2px #000;
 }
 
 .c-main, .c-right, .c-news > .news
@@ -128,15 +137,16 @@ h1.main-title-about
 
 .c-news > .news .n-heading
 {
-	font-size: 26px;
+	font-size: 35px;
 }
 
 .c-news > .news .n-date
 {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.4;
 
-	color: #999999;
+	color: #333333;
+	text-align: center;
 }
 
 .c-news > .news hr

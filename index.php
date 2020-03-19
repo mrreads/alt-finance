@@ -1,48 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <!-- Swiper JS -->
+    <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <!-- Open Menu JS -->
+    <script src="./resources/js/open-menu.js" defer></script>
+
+    <!-- Wow min CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
+
+    <link rel="stylesheet" href="./resources/css/main.css">
+    
+    <link rel="stylesheet" href="./resources/css/header.css">
+    <link rel="stylesheet" href="./resources/css/navigation.css">
+    <link rel="stylesheet" href="./resources/css/content.css">
+    <link rel="stylesheet" href="./resources/css/footer.css">
+
+    <!-- Services -->
+    <link rel="stylesheet" href="./resources/css/all-services.css">
+    <!-- Contacts -->
+    <link rel="stylesheet" href="./resources/css/contacts.css">
+    <!-- Sitecard -->
+    <link rel="stylesheet" href="./resources/css/sitecard.css">
+    <!-- Static service pages -->
+    <link rel="stylesheet" href="./resources/css/static-service-page.css">
+    <!-- About -->
+    <link rel="stylesheet" href="./resources/css/about.css">
+    <!-- All goods -->
+    <link rel="stylesheet" href="./resources/css/all-goods.css">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+
+
+    <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(58038331, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+        });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/58038331" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    
+</head>
+<body>
 <?php include_once('./header.php');?>
 
     <!-- CONTENT -->
     <section class="content">
         <div class="container">
             <div class="c-left">
-                <div class="c-main" style="background-image: url('./resources/img/1.jpg'); height: 500px; display: flex; align-items: center;">
+
+                <div class="c-main" style="background-image: url('./resources/img/1.webp'); height: 300px; display: flex; align-items: center;">
                     <h1 class="main-title-about">
                         РЕШЕНИЯ
                         <br>БУДУЩЕГО
                         <br>УЖЕ
-                        <br>СЕГОДНЯ!
+                        <br><span class="upper-text">СЕГОДНЯ!</span>
                     </h1>
                 </div>
                 
                 <div class="c-news">
                     <div class="news">
-                        <div class="n-title">
-                            <p class="n-heading">заголовок</p>
-                            <p class="n-date">April 01, 2016</p>
-                        </div>
-                        <hr>
+
                         <div class="n-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque doloribus velit ex quidem dicta. Tenetur quia labore pariatur dicta et velit nemo quam accusantium a, quibusdam quos quisquam non.</p>
+                            <img src="https://doma-uyt.ru/uploads/s/q/j/a/qjadfcmzmdd0/img/full_UZXhDhfn.jpg" alt="10" style="width: 135px;">
                         </div>
+
+                        <div class="n-title">
+                            <h1 class="n-heading">2010-2020</h1>
+                            <p class="n-date">10 лет работы на рынке</p>
+                        </div>
+
                     </div>
                     <div class="news">
-                        <div class="n-title">
-                            <p class="n-heading">заголовок</p>
-                            <p class="n-date">April 01, 2016</p>
-                        </div>
-                        <hr>
+
                         <div class="n-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque doloribus velit ex quidem dicta. Tenetur quia labore pariatur dicta et velit nemo quam accusantium a, quibusdam quos quisquam non.</p>
+                            <img src="https://doma-uyt.ru/uploads/s/q/j/a/qjadfcmzmdd0/img/full_UZXhDhfn.jpg" alt="10" style="width: 135px;">
                         </div>
+
+                        <div class="n-title">
+                            <p class="n-date" style="font-size: 20px;">Более</p>
+                            <h1 class="n-heading">50</h1>
+                            <p class="n-date">реализованных проектов</p>
+                        </div>
+                        
                     </div>
                     <div class="news">
-                        <div class="n-title">
-                            <p class="n-heading">заголовок</p>
-                            <p class="n-date">April 01, 2016</p>
-                        </div>
-                        <hr>
+
                         <div class="n-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque doloribus velit ex quidem dicta. Tenetur quia labore pariatur dicta et velit nemo quam accusantium a, quibusdam quos quisquam non.</p>
+                            <img src="https://doma-uyt.ru/uploads/s/q/j/a/qjadfcmzmdd0/img/full_UZXhDhfn.jpg" alt="10" style="width: 135px;">
                         </div>
+
+                        <div class="n-title">
+                            <p class="n-date" style="font-size: 20px;">Более</p>
+                            <h1 class="n-heading">10</h1>
+                            <p class="n-date">объектов спроектировано</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
