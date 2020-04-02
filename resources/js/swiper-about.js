@@ -15,11 +15,11 @@ var swiper = new Swiper('.swiper-container',
     loop: true,
 
     //шоб сам дрыгался
-    autoplay:
-    {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
+    // autoplay:
+    // {
+    //   delay: 2500,
+    //   disableOnInteraction: false,
+    // },
 
     loopFillGroupWithBlank: true
 });

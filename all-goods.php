@@ -79,22 +79,29 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="slider-item" style="background-image: url('./resources/img/webp/services/vaz.webp')">
-                            <h2>Товар 3</h2>
+                            <h2>Производство электро-генераторных автомобилей с электро-приводом ходовой части</h2>
+                            <h2>Инновационные антиугонные системы для автотранспортных средств</h2>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slider-item" style="background-image: url('./resources/img/webp/services/it.webp')">
-                            <h2>Товар 4</h2>
+                            <h2>Строительство всплывающих домов</h2>
+                            <h2>Разработка и строительство многоуровневых тепличных хозяйств</h2>
+                            <h2>Реконструкция зданий и сооружений</h2>
+                            <h2>Автоматизация производственных процессов</h2>
+                            <h2>Реконструкция зданий и сооружений</h2>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slider-item" style="background-image: url('./resources/img/webp/services/kafedra.webp')">
-                            <h2>Товар 5</h2>
+                            <h2>Умные смесители холодного и горячего водоснабжения</h2>
+                            <h2>Инновационные системы открывания дверей и ворот</h2>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slider-item" style="background-image: url('./resources/img/webp/services/geology.webp')">
-                            <h2>Товар 6</h2>
+                        <h2>Архитектурное проектирование</h2>
+                            <h2>Проектирование электроснабжения всех видов зданий и сооружений</h2>
                         </div>
                     </div> 
                 </div>  
@@ -124,20 +131,23 @@
                             </span>
                         </div>
                         <div class="service" style="background-image: url('./resources/img/webp/services/vaz.webp')">
-                            <p>Товар 3</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
+                            <p>Производство электро-генераторных автомобилей с электро-приводом ходовой части</p>
+                            <p>Инновационные антиугонные системы для автотранспортных средств</p>
                         </div>
                         <div class="service" style="background-image: url('./resources/img/webp/services/it.webp')">
-                            <p>Товар 4</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
+                            <p>Строительство всплывающих домов</p>
+                            <p>Разработка и строительство многоуровневых тепличных хозяйств</p>
+                            <p>Реконструкция зданий и сооружений</p>
+                            <p>Автоматизация производственных процессов</p>
+                            <p>Реконструкция зданий и сооружений</p>
                         </div>
                         <div class="service" style="background-image: url('./resources/img/webp/services/kafedra.webp')">
-                            <p>Товар 5</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
+                            <p>Умные смесители холодного и горячего водоснабжения</p>
+                            <p>Инновационные системы открывания дверей и ворот</p>
                         </div>
                         <div class="service" style="background-image: url('./resources/img/webp/services/geology.webp')">
-                            <p>Товар 6</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
+                            <p>Архитектурное проектирование</p>
+                            <p>Проектирование электроснабжения всех видов зданий и сооружений</p>
                         </div>
                     </div>
                 </div>

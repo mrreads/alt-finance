@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Строительно-реконструктивные работы - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    <title>Строительно-монтажные
+работы работы - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -68,7 +69,7 @@
 <div class="container page-services" style="padding-bottom: 0;">
     <div class="c-main">
         <div class="page-service-title" style="background-image: url('./resources/img/webp/services/building.webp')">
-            <h2>Строительно-реконструктивные работы</h2>
+            <h2>Строительно-монтажные работы работы</h2>
             <p>Все виды и стадии  архитектурно-строительных проектов инновационных малоэтажных, подземных, подводных, воздушных жилых объектов, теплиц многоуровневых, промышленных зданий, сельско-хозяйственных объектов.</p>
         </div>
     </div>

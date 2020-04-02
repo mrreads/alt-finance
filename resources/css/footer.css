@@ -9,9 +9,7 @@
 {
 	display: flex;
 	flex-flow: row wrap;
-
-	max-width: 600px;
-	padding: 0 75px;
+	justify-content: center;
 }
 
 .tels
@@ -19,7 +17,8 @@
 	display: grid;
 	flex-grow: 1;
 
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
+	margin-top: 20px;
 }
 
 .tels p, .tels a
@@ -33,7 +32,7 @@
 {
 	display: flex;
 	align-items: center;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: space-evenly;
 
 	padding: 5px 50px;
@@ -48,10 +47,10 @@
 	color: #000000;
 }
 
-.footer a:first-child
+/* .footer a:first-child
 {
 	margin: 0px 20px;
-}
+} */
 
 a.copyright-src
 {
@@ -88,7 +87,7 @@ a.copyright-src
 {
 	position: absolute;
 	bottom: 0;
-	left: 0;
+	left: 8px;
 
 	display: inline-block;
 
@@ -105,7 +104,7 @@ a.copyright-src
 {
 	position: absolute;
 	top: 50%;
-	left: -30px;
+	left: -15px;
 
 	display: inline-block;
 

@@ -159,7 +159,7 @@ div.slider
 
 .c-main .service > p
 {
-	font-size: 22px;
+	font-size: 15px;
 	font-weight: bold;
 
 	z-index: 1	;
@@ -168,6 +168,9 @@ div.slider
 
 	opacity: 1;
 	text-shadow: 2px 2px 0px #000000;
+
+	margin-bottom: 10px;
+	line-height: 24px;
 }
 
 .all-services .swiper-button-next, .swiper-container-rtl .swiper-button-prev
@@ -198,9 +201,11 @@ div.slider
 
 .all-services .slider-item > h2
 {
-	font-size: 52px;
+	font-size: 37px;
 	cursor: default;
 	text-transform: uppercase;
+
+	margin-bottom: 20px;
 }
 
 .all-services  .slider-item > p

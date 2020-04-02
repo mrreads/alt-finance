@@ -44,7 +44,7 @@ div.c-main-contacts .adr
 
 div.c-main-contacts h2
 {
-	text-align: right;
+	text-align: center;
 }
 
 .c-main-contacts .map > iframe
@@ -67,15 +67,18 @@ div.c-main-contacts h2
 	margin-top: 20px;
 }
 
-.c-main-contacts p.tel
+.c-main-contacts a.tel
 {
 	margin-top: 20px;
+	text-decoration: none;
+	color: #000;
+	font-size: 23px;
 }
 
-.c-main-contacts p.tel:first-child
+/* .c-main-contacts p.tel:first-child
 {
 	margin-top: 0px;
-}
+} */
 
 .c-main-contacts p.tel, .c-main-contacts p.adress, .c-main-contacts h1.adress-title, .c-main-contacts h1.tel-title
 {

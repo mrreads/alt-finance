@@ -29,9 +29,10 @@
 	list-style-type: circle;
 }
 
-.service-list li:last-child
+.service-list li
 {
-	line-height: 25px;
+	line-height: 20px;
+	margin-bottom: 10px;
 }
 
 .service-subtitle

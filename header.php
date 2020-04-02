@@ -10,7 +10,7 @@
         <div class="header_act">
             <div class="hidden-button">
                 <img src="./resources/img/icons/hidden.png" alt="ТЫКАЙ БЛЯТЬ!" class="hidden-nav-button">
-                <button class="f-a_language">Switch to English</button>
+                <!-- <button class="f-a_language">Switch to English</button> -->
             </div>
             
             <form action="" class="f-a_search-f">
@@ -38,18 +38,12 @@
                         проектирование
                         <br>строительство
                         <br>реконструкция
-                        <br>электромонтажные работы
-                        <br>инжиниринговая деятельность</a>
-                    <a href="./autoVAZ.php">
-                        производство транспортных средств
-                        <br>инжиниринговая деятельность
-                    </a>
-                    <a href="./IT.php">
-                        IT технологии
-                        <br>автоматизация производства
-                        <br>инжиниринговая деятельность</a>
+                        <br>электромонтажные работы</a>
+                    <a href="./autoVAZ.php">производство транспортных средств</a>
+                    <a href="./IT.php">IT технологии<br>автоматизация производства</a>
                     <a href="./science.php">научно-исследовательская деятельность</a>
                     <a href="./geology.php">инженерно-геологические изыскания</a>
+                    <a href="./engeneer.php">инжиниринговая деятельность</a>
                     </div>
             </li>
             <!-- <li><a href="./media.php">Фото и видео, Youtube канал.</a></li> -->

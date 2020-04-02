@@ -51,12 +51,12 @@ p.service-text
 	max-width: 250px;
 	min-height: 130px;
 	margin: 0 auto;
-	padding: 5px;
 
 	background-image: url("./resources/img/webp/about/rjd1.webp");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 80%;
+	background-size: cover;
+	border-radius: 1em;
 }
 
 @media screen and (max-width: 800px)

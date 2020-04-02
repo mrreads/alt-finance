@@ -73,6 +73,7 @@ h1.main-title-about
 span.upper-text
 {
 	font-size: 50px;
+	transition: all .3s;
 }
 
 .c-right
@@ -209,5 +210,13 @@ span.upper-text
 	.content .c-right
 	{
 		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 380px)
+{
+	span.upper-text
+	{
+		font-size: 43px;
 	}
 }
