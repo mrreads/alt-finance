@@ -201,7 +201,7 @@ div.slider
 
 .all-services .slider-item > h2
 {
-	font-size: 37px;
+	/* font-size: 37px; */
 	cursor: default;
 	text-transform: uppercase;
 
@@ -298,7 +298,7 @@ div.slider
 	}
 	.all-services .slider-item > h2
 	{
-		font-size: 6vw;
+		font-size: 3vw;
 	}
 }
 

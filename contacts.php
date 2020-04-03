@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    <link rel="icon" href="./resources/favicon.ico">
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -75,8 +76,8 @@
                     </div>
                     <div class="c-tel">
                         <h2 class="tel-title">Связь</h2>
-                        <a href="tel:+74951804982" class="first tel">+7 (495) 180 49 82
-                            <br>Корпоративный номер</a>
+                        <a href="tel:+74951804982" class="first tel">Телефон 
+                            <br>+7 (495) 180 49 82</a>
                     </div>
                 </div>
 

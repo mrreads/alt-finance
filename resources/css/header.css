@@ -4,7 +4,7 @@
 	padding: 10px 30px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -23,8 +23,8 @@
 
 .header .header_info .header_info_src > .h-i_logo
 {
-	max-height: 70px; 
-	margin-right: 25px;
+	max-height: 85px; 
+	/* margin-right: 25px; */
 	transition: all .3s;
 }
 

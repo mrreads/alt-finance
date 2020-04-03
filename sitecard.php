@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карта сайта - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    <link rel="icon" href="./resources/favicon.ico">
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -79,7 +80,7 @@
                             реконструкция,
                             электромонтажные работы,
                             инжиниринговая деятельность</a></li>
-                        <li class="hover"><a href="./autoVAZ.php">
+                        <li class="hover"><a href="./transport.php">
                             производство транспортных средств,
                             инжиниринговая деятельность
                         </a></li>
@@ -92,7 +93,7 @@
                         <li class="hover last-hover"><a href="./geology.php">инженерно-геологические изыскания</a></li>
                     </ul>
             </li>
-            <li class="hover"><a href="#">Фото и видео, Youtube канал.</a></li>
+            <!-- <li class="hover"><a href="#">Фото и видео, Youtube канал.</a></li> -->
             <li class="hover"><a href="./contacts.php">Контакты</a></li>
             <li class="hover"><a href="./sitecard.php">Карта сайта</a></li>
         </ul>

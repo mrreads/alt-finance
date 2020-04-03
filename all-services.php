@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Услуги - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    <link rel="icon" href="./resources/favicon.ico">
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -78,7 +79,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a class="slider-item"  href="./autoVAZ.php" style="background-image: url('./resources/img/webp/services/vaz.webp')">
+                        <a class="slider-item"  href="./transport.php" style="background-image: url('./resources/img/webp/services/vaz.webp')">
                             <h2>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</h2>
                         </a>
                     </div>
@@ -96,6 +97,11 @@
                         <a class="slider-item" href="./geology.php" style="background-image: url('./resources/img/webp/services/geology.webp')">
                             <h2>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</h2>
                         </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a class="slider-item" href="./geology.php" style="background-image: url('https://kudapostupat.com/wp-content/uploads/2019/11/2658280-min.png')">
+                            <h2>ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</h2>
+                        </a>
                     </div> 
                 </div>  
             </div>
@@ -111,19 +117,22 @@
                             <p>КОНСАЛТИНГ</p>
                         </a>
                         <a class="service" href="./building.php" style="background-image: url('./resources/img/webp/services/building.webp')">
-                            <p>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
+                            <p>ПРОЕКТИРОВАНИЕ, СТРОИТЕЛЬСТВО, РЕКОНСТРУКЦИЯ, ЭЛЕКТРОМОНТАЖНЫЕ РАБОТЫ</p>
                         </a>
-                        <a class="service"  href="./autoVAZ.php"style="background-image: url('./resources/img/webp/services/vaz.webp')">
+                        <a class="service"  href="./transport.php"style="background-image: url('./resources/img/webp/services/vaz.webp')">
                             <p>ПРОИЗВОДСТВО ТРАНСПОРТНЫХ СРЕДСТВ, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </a>
                         <a class="service" href="./IT.php" style="background-image: url('./resources/img/webp/services/it.webp')">
-                            <p>IT-ТЕХНОЛОГИИ, АВТОМАТИЗАЦИЯ ПРОИЗВОДСТВА, ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
+                            <p>IT-ТЕХНОЛОГИИ, АВТОМАТИЗАЦИЯ ПРОИЗВОДСТВА</p>
                         </a>
                         <a class="service" href="./science.php" style="background-image: url('./resources/img/webp/services/kafedra.webp')">
                             <p>НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </a>
                         <a class="service" href="./geology.php" style="background-image: url('./resources/img/webp/services/geology.webp')">
                             <p>ИНЖЕНЕРНО-ГЕОЛОГИЧЕСКИЕ ИЗЫСКАНИЯ</p>
+                        </a>
+                        <a class="service" href="./engeneer.php" style="background-image: url('https://kudapostupat.com/wp-content/uploads/2019/11/2658280-min.png')">
+                            <p>ИНЖИНИРИНГОВАЯ ДЕЯТЕЛЬНОСТЬ</p>
                         </a>
                     </div>
                 </div>

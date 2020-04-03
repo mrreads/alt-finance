@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Цвета -->
+    <meta name="theme-color" content="#524EA4">
+
     <title>Главная - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    <link rel="icon" href="./resources/favicon.ico">
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -80,7 +85,7 @@
                     <div class="news">
 
                         <div class="n-text">
-                            <img src="https://doma-uyt.ru/uploads/s/q/j/a/qjadfcmzmdd0/img/full_UZXhDhfn.jpg" alt="10" style="width: 135px;">
+                            <img src="./resources/img/content/1.png" alt="10" style="width: 200px;">
                         </div>
 
                         <div class="n-title">
@@ -92,7 +97,7 @@
                     <div class="news">
 
                         <div class="n-text">
-                            <img src="https://doma-uyt.ru/uploads/s/q/j/a/qjadfcmzmdd0/img/full_UZXhDhfn.jpg" alt="10" style="width: 135px;">
+                            <img src="./resources/img/content/2.png" alt="10" style="width: 200px;">
                         </div>
 
                         <div class="n-title">
@@ -105,7 +110,7 @@
                     <div class="news">
 
                         <div class="n-text">
-                            <img src="https://doma-uyt.ru/uploads/s/q/j/a/qjadfcmzmdd0/img/full_UZXhDhfn.jpg" alt="10" style="width: 135px;">
+                            <img src="./resources/img/content/3.png" alt="10" style="width: 200px;">
                         </div>
 
                         <div class="n-title">

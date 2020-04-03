@@ -9,15 +9,14 @@
         </div>
         <div class="header_act">
             <div class="hidden-button">
-                <img src="./resources/img/icons/hidden.png" alt="ТЫКАЙ БЛЯТЬ!" class="hidden-nav-button">
+                <img src="./resources/img/icons/hidden.png" alt="menu" class="hidden-nav-button">
                 <!-- <button class="f-a_language">Switch to English</button> -->
             </div>
             
-            <form action="" class="f-a_search-f">
+            <!-- <form action="" class="f-a_search-f">
                 <input type="search" name="search" placeholder="Search...">
                 <input type="submit" value="">
-            </form>
-            
+            </form> -->
         </div>
 </header>
 <!-- END HEADER -->
@@ -39,7 +38,7 @@
                         <br>строительство
                         <br>реконструкция
                         <br>электромонтажные работы</a>
-                    <a href="./autoVAZ.php">производство транспортных средств</a>
+                    <a href="./transport.php">производство транспортных средств<br>инжиниринговая деятельность</a>
                     <a href="./IT.php">IT технологии<br>автоматизация производства</a>
                     <a href="./science.php">научно-исследовательская деятельность</a>
                     <a href="./geology.php">инженерно-геологические изыскания</a>

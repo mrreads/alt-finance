@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Наши проекты - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    <link rel="icon" href="./resources/favicon.ico">
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -116,7 +117,7 @@
                     <div class="services">
                         <div class="service" style="background-image: url('./resources/img/projects/house/house.webp');">
                             <p>Всплывающий дом</p>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span>
+                            <!-- <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quisquam eum natus dolorum veniam unde incidunt</span> -->
                         </div>
                         <div class="service" style="background-image: url('./resources/img/projects/trash/trash.webp');">
                             <p>Мусороперерабатывающие заводы</p>
