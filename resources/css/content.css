@@ -138,6 +138,9 @@ span.upper-text
 
 .c-news > .news .n-heading
 {
+	display: block;
+	width: 100%;
+	text-align: center;
 	font-size: 35px;
 }
 

@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карта сайта - АЛЬТЕРНАТИВНЫЕ ФИНАНСЫ</title>
+    <meta name="description" content="Альтернативные Финансы - является развивающейся компанией на российском рынке и объединяющая в себе несколько независимых, базирующихся на продвижении и внедрении инновационных разработок отделений, обладая уникальной экспертизой в области проектирования, управления строительством, автоматизацией производства, жилых комплексов, воздушного, водного и наземного транспорта, IT-технологий, робототехники, а также исследовании искусственного интеллекта и других научно-исследовательских направлений в области фундаментальной и прикладной науке.">
+    <meta name="keywords" content="альтернативные финансы, консалтинг, проектирование, инжиниринговая деятельность, it-технологии">
+    
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Альтернативные финансы">
+    <meta property="og:url" content="http://altfinansi.ru/">
+    <meta property="og:image" content="http://altfinansi.ru/resources/img/1.webp">
+    <meta property="business:contact_data:street_address" content="Магистральная 5-я улица">
+    <meta property="business:contact_data:locality" content="Москва">
+    <meta property="business:contact_data:region" content="Москва">
+    <meta property="business:contact_data:postal_code" content="123007">
+    <meta property="business:contact_data:country_name" content="Россия">
+    
     <link rel="icon" href="./resources/favicon.ico">
     
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <!-- Swiper JS -->
-    <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script   src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
     <!-- Open Menu JS -->
     <script src="./resources/js/open-menu.js" defer></script>
@@ -44,7 +57,7 @@
 
 
     <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
+        <script   >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");

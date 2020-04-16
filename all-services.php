@@ -9,7 +9,7 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <!-- Swiper JS -->
-    <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script   src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
     <!-- Open Menu JS -->
     <script src="./resources/js/open-menu.js" defer></script>
@@ -44,7 +44,7 @@
 
 
     <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
+        <script   >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -143,7 +143,7 @@
 
     <?php include_once ('./footer.php');?>
 
-    <script type="text/javascript" src="./resources/js/init-swiper.js"></script>
+    <script   src="./resources/js/init-swiper.js"></script>
 
 
 </body>
